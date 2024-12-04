@@ -2,7 +2,7 @@
 
 <center>
 
-![Sampling locations in Sandusky Bay]()
+![Sampling locations in Sandusky Bay](https://github.com/Aquatic-Microbiomes-Lab/Aquatic-Microbiomes-Lab/blob/main/Sandusky_Bay_Monitoring/SB%20Map/MapWithInset.png)
 
 </center>
 
