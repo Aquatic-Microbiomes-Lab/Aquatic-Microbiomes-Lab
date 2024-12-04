@@ -2,7 +2,7 @@
 
 <center>
 
-![Sampling locations in Sandusky Bay](https://github.com/ryansw22/Bullerjahn-Ward-lab/blob/a47d07b755fd7bf440aec6b0080f2875b2c4a951/Sandusky%20Bay%20monitoring/SB%20MAP/MapWithInset.png)
+![Sampling locations in Sandusky Bay](https://github.com/Aquatic-Microbiomes-Lab/Aquatic-Microbiomes-Lab/blob/main/Kates_Secret_Special_Files/Kate's%20extra%20secret%20files/Winam%20Gulf.png)
 
 </center>
 
