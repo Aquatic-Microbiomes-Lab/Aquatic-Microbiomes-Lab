@@ -1,0 +1,127 @@
+---
+Title: CLSx4 Plots
+
+Author: Kate Brown
+
+Date: 2022-12-05
+
+Purpose: Create bar plots for chlorophyll-a, mcyE copies, and microcystin congener composition from Chautauqua Lake August 2021 nutrient addition experiment.
+---
+
+##Load##
+```{r}
+library(ggplot2)
+setwd(“./”)
+```
+
+##Chlorophyll-a##
+```{r}
+#Read CSV#
+chl <- read.csv("CLSx4 Chlorophyll.csv", header = TRUE)
+
+#Summary statistics#
+avc <- aggregate(chl$Concentration, list(chl$group), FUN=mean)
+sdc <- aggregate(chl$Concentration, list(chl$group), FUN=sd)
+
+#Reordering dataframe#
+chl <- data.frame(avc,sdc)
+chl = subset(chl, select = -c(Group.1.1))
+colnames(chl) <- c("group","av","sd")
+
+#Fixing fucked up order of variables#
+level_order_chl <- c("Initial", "Control", "Phosphate (P)", "Nitrate", "Ammonium", "Urea", "P+Nitrate", "P+Ammonium", "P+Urea") 
+
+#ggplot slay#
+ggplot(data=chl, aes(x=factor(group, level = level_order_chl), y=av)) +
+  geom_bar(stat="identity", fill = "grey69", color = "black") +
+  theme_bw() +
+  geom_errorbar(aes(ymin=av-sd, ymax=av+sd), width=.2,
+                 position=position_dodge(.9)) +
+  xlab(" ") +
+  ylab("Concentration (µg/L)") +
+  scale_y_continuous(limits = c(0,150), expand = c(0, 0)) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  theme(text = element_text(size = 13, color = 'black')) + 
+  theme(axis.title.x = element_text(vjust = -1))  +
+  theme(axis.text.x = element_text(size = 13, color = "black", angle = 90, 
+                    hjust = 0.95, vjust = 0.2), plot.margin = margin(10, 25, 10, 10)) +
+  theme(axis.text.y = element_text(size = 13, color = "black")) +
+  theme(panel.border = element_rect(colour = "black", fill=NA, size=1)) +
+  theme(axis.ticks = element_line(colour = "black", size = .5)) +
+  annotate(geom="text", x=6, y=121, label="*", color="black", size = 6) +
+  annotate(geom="text", x=7, y=134, label="**", color="black", size = 6) +
+  annotate(geom="text", x=8, y=122, label="*", color="black", size = 6) +
+  annotate(geom="text", x=9, y=128, label="**", color="black", size = 6)
+ggsave("CLSx4 Chlorophyll.png", path = “./“, width = 6, height = 5)
+```
+
+#mcyE Genes
+```{r}
+#Read CSV#
+genes <- read.csv("CLSx4 Genes.csv", header = TRUE)
+
+#Summary statistics#
+avg <- aggregate(genes$Copies, list(genes$group), FUN=mean)
+sdg <- aggregate(genes$Copies, list(genes$group), FUN=sd)
+
+#Reordering dataframe#
+genes <- data.frame(avg,sdg)
+genes = subset(genes, select = -c(Group.1.1))
+colnames(genes) <- c("group","av","sd")
+
+#Fixing fucked up order of variables#
+level_order_genes <- c("Initial", "Control", "Phosphate (P)", "Nitrate", "Ammonium", "Urea", "P+Nitrate", "P+Ammonium", "P+Urea") 
+
+#ggplot slay#
+ggplot(data=genes, aes(x=factor(group, level = level_order_genes), y=av)) +
+  geom_bar(stat="identity", fill = "grey69", color = "black") +
+  theme_bw() +
+  geom_errorbar(aes(ymin=av-sd, ymax=av+sd), width=.2,
+                 position=position_dodge(.9)) +
+  xlab(" ") +
+  ylab(expression(paste(italic("mcyE")," Copies/L"))) +
+  scale_y_continuous(limits = c(0,25000000), expand = c(0, 0)) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  theme(text = element_text(size = 13, color = 'black')) + 
+  theme(axis.title.x = element_text(vjust = -1))  +
+  theme(axis.text.x = element_text(size = 13, color = "black", angle = 90, 
+                    hjust = 0.95, vjust = 0.2), plot.margin = margin(10, 25, 10, 10)) +
+  theme(axis.text.y = element_text(size = 13, color = "black")) +
+  theme(panel.border = element_rect(colour = "black", fill=NA, size=1)) +
+  theme(axis.ticks = element_line(colour = "black", size = .5)) +
+  annotate(geom="text", x=7, y=2.35e+07, label="**", color="black", size = 6)
+ggsave("CLSx4 Genes.png", path = "/Users/Katelyn/Desktop/ /BGSU/MS/Projects/Chautauqua/CLSx4", width = 6, height = 5)
+```
+
+##Congeners##  need to fix borders
+```{r}
+#Read CSV in#
+cong <- read.csv("CLSx4 Congeners.csv", header = TRUE)
+
+#Fix fucked up order of variables#
+level_order_cong <- c("I-A","I-B","I-C","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24")
+
+#ggplot slay#
+ggplot(cong, aes(x=factor(sample, level = level_order_cong), fill = group, y=X.)) +
+  geom_bar(position="stack", stat="identity") +
+  theme_bw() +
+  xlab(" ") +
+  ylab("Microcystin Congener Composition (%)") +
+  scale_y_continuous(limits = c(0,101), expand = c(0, 0)) +
+  facet_wrap(~factor(treatment, levels = c("Initial", "Control", "Phosphate (P)", "Nitrate", "Ammonium", "Urea", "P+Nitrate", "P+Ammonium", "P+Urea")), strip.position = "bottom", scales = 	"free_x", nrow=1) +
+  theme(strip.placement = "outside") +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  theme(text = element_text(size = 13, color = 'black')) + 
+  theme(axis.title.x = element_text(vjust = -1))  +
+  theme(axis.text.x = element_text(size = 13, color = "black"), plot.margin = margin(10, 25, 10, 10)) +
+  theme(axis.text.y = element_text(size = 13, color = "black")) +
+  theme(panel.border = element_rect(colour = "black", fill=NA, size=1)) +
+  theme(axis.ticks = element_line(colour = "black", size = .5)) +
+  theme(strip.background = element_blank(), panel.spacing.x = unit(0,"line")) +
+  theme(strip.text = element_text(size = 13)) +
+  scale_fill_manual(values=c("grey11", "grey33", "grey69")) +
+  theme(legend.title=element_blank()) +
+  theme(panel.border = element_blank())
+
+ggsave("CLSx4 Congeners_noborder.png", path = “./“, width = 15, height = 5)
+```
