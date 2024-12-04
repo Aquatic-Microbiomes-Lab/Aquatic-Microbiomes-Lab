@@ -1,0 +1,342 @@
+R Markdown File
+
+--------
+Title: 16S rRNA Gene and Variable Region Phylogenetic Analysis
+
+Author: Kate Brown
+
+Last updated: 2021-6-29
+
+Purpose: This code is for generating neighbor-joining (nucleotide similarity) phylogenetic trees from the 16S rRNA gene. It can be used for the whole gene (1,550 bp) or for subsets of the gene, including variable regions 1-9.
+
+Other instructions:
+#For subsetting variable regions: 
+1. Align a set of sequences with a reference E. coli strain (J01859.1) using ClustalOmega (https://www.ebi.ac.uk/Tools/msa/clustalo/), set output as FASTA.
+2. Import FASTA alignment into WebLogo (https://weblogo.threeplusone.com/create.cgi) and set output as "Data (plain text)".
+3. Use entropy values to determine the start and end base number for variable regions, about 50-100 bp where entropy is low.
+4. Use those base position numbers in the subsetting code.
+5. Output of code for each tree is a .newick file. With larger amounts of sequences, R struggles to produce a readable tree and does not have many options for concatenating sequence names. The .newick files can be imported into the program Dendroscope (download at: https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/dendroscope/) and downloaded as pdfs for annotating later.
+
+Notes:
+#Subsetting is adapted from 'Jackson JD. 2019. 16S rRNA analysis and toxin gene presence in Escherichia coli isolated from beach water and sand at a public beach (Erie County, NY). Master's Thesis, Buffalo State College.'
+
+#Always load packages in same order as below. ape masks "seqinr::as.alignment' function. 
+
+#This could probably be used for other genes or sequences of interest.
+
+--------
+
+##Load packages##
+```{r}
+library(msa)
+library("seqinr")
+library("ape")
+library(ips)
+```
+
+##Load FASTA Alignment File##
+```{r}
+#Set Working Directory - Set to wherever the file is located#
+setwd("~/")
+
+#Read File in#
+Example_file <- read.alignment(file= "./Example_file.fasta", format= "fasta", forceToLower = FALSE, whole.header = TRUE)
+```
+
+##Build Full Sequence Phylogenetic Tree##
+```{r}
+#Distance Alignment#
+d <- dist.alignment(Example_file, "identity")
+Example_tree <- njs(d)
+
+#Write Tree in Newick Format#
+write.tree(Example_tree, file = "Example_tree.newick", append = FALSE, digits = 10, tree.names = TRUE)
+```
+
+##Subset V1##
+```{r}
+final=list()
+for(i in 1:length(Example_file$seq)){ 
+  sequences=Example_file$seq[i] 
+  sequences=unlist(strsplit(sequences,''))
+  sequences=sequences[start_base:end_base] #add in start & end base numbers
+  final[i]=print(paste(sequences,collapse=''))}
+finalAlign_V1= seqinr::as.alignment(nb=Example_file$nb,nam=Example_file$nam,seq=final,com=Example_file$com) 
+
+#Remove rows with only “-“#
+finalAlign_V1 <- as.DNAbin(finalAlign_V1)
+(V1Removed <- identifyEmptyCells(finalAlign_V1))
+finalAlign_V1 <- deleteEmptyCells(finalAlign_V1, margin = c(1), nset = c("-"),
+                                                   quiet = FALSE) ##removed xxxx sequences
+finalAlign_V1 <- as.character(finalAlign_V1)
+finalAlign_V1 <- as.alignment(finalAlign_V1)
+```
+
+##V1 Tree##
+```{r}
+#Make Distance Matrix (using library(seqinr))#
+dist_matrix_v1 <- dist.alignment(finalAlign_V1, "identity")
+
+#Make Neighbor-joining Tree (using library(ape))#
+NJ_Tree_v1 <- bionjs(dist_matrix_v1, fs=15)
+
+#Write Tree in Newick Format#
+write.tree(NJ_Tree_v1, file = "Example_file_V1.newick", append = FALSE,
+           digits = 10, tree.names = TRUE)
+```
+
+##Subset V2##
+```{r}
+final=list()
+for(i in 1:length(Example_file$seq)){ 
+  sequences=Example_file$seq[i] 
+  sequences=unlist(strsplit(sequences,''))
+  sequences=sequences[start_base:end_base] #add in start & end base numbers
+  final[i]=print(paste(sequences,collapse=''))}
+finalAlign_V2= seqinr::as.alignment(nb=Example_file$nb,nam=Example_file$nam,seq=final,com=Example_file$com) 
+
+#Remove rows with only “-“#
+finalAlign_V2 <- as.DNAbin(finalAlign_V2)
+(V2Removed <- identifyEmptyCells(finalAlign_V2))
+finalAlign_V2 <- deleteEmptyCells(finalAlign_V2, margin = c(1), nset = c("-"),
+                                                   quiet = FALSE) ##removed xxxx sequences
+finalAlign_V2 <- as.character(finalAlign_V2)
+finalAlign_V2 <- as.alignment(finalAlign_V2)
+```
+
+##V2 Tree##
+```{r}
+#Make Distance Matrix (using library(seqinr))#
+dist_matrix_v2 <- dist.alignment(finalAlign_V2, "identity")
+
+#Make Neighbor-joining Tree (using library(ape))#
+NJ_Tree_v2 <- njs(dist_matrix_v2)
+
+#Write Tree in Newick Format#
+write.tree(NJ_Tree_v2, file = "Example_file_V2.newick", append = FALSE,
+           digits = 10, tree.names = TRUE)
+```
+
+##Subset V3##
+```{r}
+final=list()
+for(i in 1:length(Example_file$seq)){ 
+  sequences=Example_file$seq[i] 
+  sequences=unlist(strsplit(sequences,''))
+  sequences=sequences[start_base:end_base] #add in start & end base numbers
+  final[i]=print(paste(sequences,collapse=''))}
+finalAlign_V3= seqinr::as.alignment(nb=Example_file$nb,nam=Example_file$nam,seq=final,com=Example_file$com) 
+
+#Remove rows with only “-“#
+finalAlign_V3 <- as.DNAbin(finalAlign_V3)
+(V3Removed <- identifyEmptyCells(finalAlign_V3))
+finalAlign_V3 <- deleteEmptyCells(finalAlign_V3, margin = c(1), nset = c("-"),
+                                                   quiet = FALSE) ##removed xxxx sequences
+finalAlign_V3 <- as.character(finalAlign_V3)
+finalAlign_V3 <- as.alignment(finalAlign_V3)
+```
+
+##V3 Tree##
+```{r}
+#Make Distance Matrix (using library(seqinr))#
+dist_matrix_v3 <- dist.alignment(finalAlign_V3, "identity")
+
+#Make Neighbor-joining Tree (using library(ape))#
+NJ_Tree_v3 <- njs(dist_matrix_v3)
+
+#Write Tree in Newick Format#
+write.tree(NJ_Tree_v3, file = "Example_file_V3.newick", append = FALSE,
+           digits = 10, tree.names = TRUE)
+```
+
+##Subset V4##
+```{r}
+final=list()
+for(i in 1:length(Example_file$seq)){ 
+  sequences=Example_file$seq[i] 
+  sequences=unlist(strsplit(sequences,''))
+  sequences=sequences[start_base:end_base] #add in start & end base numbers
+  final[i]=print(paste(sequences,collapse=''))}
+finalAlign_V4= seqinr::as.alignment(nb=Example_file$nb,nam=Example_file$nam,seq=final,com=Example_file$com) 
+
+#Remove rows with only “-“#
+finalAlign_V4 <- as.DNAbin(finalAlign_V4)
+(V4Removed <- identifyEmptyCells(finalAlign_V4))
+finalAlign_V4 <- deleteEmptyCells(finalAlign_V4, margin = c(1), nset = c("-"),
+                                                   quiet = FALSE) ##removed xxxx sequences
+finalAlign_V4 <- as.character(finalAlign_V4)
+finalAlign_V4 <- as.alignment(finalAlign_V4)
+```
+
+##V4 Tree##
+```{r}
+#Make Distance Matrix (using library(seqinr))#
+dist_matrix_v4 <- dist.alignment(finalAlign_V4, "identity")
+
+#Make Neighbor-joining Tree (using library(ape))#
+NJ_Tree_v4 <- njs(dist_matrix_v4)
+
+#Write Tree in Newick Format#
+write.tree(NJ_Tree_v4, file = "Example_file_V4.newick", append = FALSE,
+           digits = 10, tree.names = TRUE)
+```
+
+##Subset V5##
+```{r}
+final=list()
+for(i in 1:length(Example_file$seq)){ 
+  sequences=Example_file$seq[i] 
+  sequences=unlist(strsplit(sequences,''))
+  sequences=sequences[start_base:end_base] #add in start & end base numbers
+  final[i]=print(paste(sequences,collapse=''))}
+finalAlign_V5= seqinr::as.alignment(nb=Example_file$nb,nam=Example_file$nam,seq=final,com=Example_file$com) 
+
+#Remove rows with only “-“#
+finalAlign_V5 <- as.DNAbin(finalAlign_V5)
+(V5Removed <- identifyEmptyCells(finalAlign_V5))
+finalAlign_V5 <- deleteEmptyCells(finalAlign_V5, margin = c(1), nset = c("-"),
+                                                   quiet = FALSE) ##removed xxxx sequences
+finalAlign_V5 <- as.character(finalAlign_V5)
+finalAlign_V5 <- as.alignment(finalAlign_V5)
+```
+
+##V5 Tree##
+```{r}
+#Make Distance Matrix (using library(seqinr))#
+dist_matrix_v5 <- dist.alignment(finalAlign_V5, "identity")
+
+#Make Neighbor-joining Tree (using library(ape))#
+NJ_Tree_v5 <- njs(dist_matrix_v5)
+
+#Write Tree in Newick Format#
+write.tree(NJ_Tree_v5, file = "Example_file_V5.newick", append = FALSE,
+           digits = 10, tree.names = TRUE)
+```
+
+##Subset V6##
+```{r}
+final=list()
+for(i in 1:length(Example_file$seq)){ 
+  sequences=Example_file$seq[i] 
+  sequences=unlist(strsplit(sequences,''))
+  sequences=sequences[start_base:end_base] #add in start & end base numbers
+  final[i]=print(paste(sequences,collapse=''))}
+finalAlign_V6= seqinr::as.alignment(nb=Example_file$nb,nam=Example_file$nam,seq=final,com=Example_file$com) 
+
+#Remove rows with only “-“#
+finalAlign_V6 <- as.DNAbin(finalAlign_V6)
+(V6Removed <- identifyEmptyCells(finalAlign_V6))
+finalAlign_V6 <- deleteEmptyCells(finalAlign_V6, margin = c(1), nset = c("-"),
+                                                   quiet = FALSE) ##removed xxxx sequences
+finalAlign_V6 <- as.character(finalAlign_V6)
+finalAlign_V6 <- as.alignment(finalAlign_V6) 
+```
+
+##V6 Tree##
+```{r}
+##Make Distance Matrix (using library(seqinr))
+dist_matrix_v6 <- dist.alignment(finalAlign_V6, "identity")
+
+#Make Neighbor-joining Tree (using library(ape))#
+NJ_Tree_v6 <- njs(dist_matrix_v6)
+
+#Write Tree in Newick Format#
+write.tree(NJ_Tree_v6, file = "Example_file_V6.newick", append = FALSE,
+           digits = 10, tree.names = TRUE)
+```
+
+##Subset V7##
+```{r}
+final=list()
+for(i in 1:length(Example_file$seq)){ 
+  sequences=Example_file$seq[i] 
+  sequences=unlist(strsplit(sequences,''))
+  sequences=sequences[start_base:end_base] #add in start & end base numbers
+  final[i]=print(paste(sequences,collapse=''))}
+finalAlign_V7= seqinr::as.alignment(nb=Example_file$nb,nam=Example_file$nam,seq=final,com=Example_file$com) 
+
+#Remove rows with only “-“#
+finalAlign_V7 <- as.DNAbin(finalAlign_V7)
+(V7Removed <- identifyEmptyCells(finalAlign_V7))
+finalAlign_V7 <- deleteEmptyCells(finalAlign_V7, margin = c(1), nset = c("-"),
+                                                   quiet = FALSE) ##removed xxxx sequences
+finalAlign_V7 <- as.character(finalAlign_V7)
+finalAlign_V7 <- as.alignment(finalAlign_V7) 
+```
+
+##V7 Tree##
+```{r}
+#Make Distance Matrix (using library(seqinr)#
+dist_matrix_v7 <- dist.alignment(finalAlign_V7, "identity")
+
+#Make Neighbor-joining Tree (using library(ape))#
+NJ_Tree_v7 <- njs(dist_matrix_v7)
+
+#Write Tree in Newick Format#
+write.tree(NJ_Tree_v7, file = "Example_file_V7.newick", append = FALSE,
+           digits = 10, tree.names = TRUE)
+```
+
+##Subset V8##
+```{r}
+final=list()
+for(i in 1:length(Example_file$seq)){ 
+  sequences=Example_file$seq[i] 
+  sequences=unlist(strsplit(sequences,''))
+  sequences=sequences[start_base:end_base] #add in start & end base numbers
+  final[i]=print(paste(sequences,collapse=''))}
+finalAlign_V8= seqinr::as.alignment(nb=Example_file$nb,nam=Example_file$nam,seq=final,com=Example_file$com) 
+
+#Remove rows with only “-“#
+finalAlign_V8 <- as.DNAbin(finalAlign_V8)
+(V8Removed <- identifyEmptyCells(finalAlign_V8))
+finalAlign_V8 <- deleteEmptyCells(finalAlign_V8, margin = c(1), nset = c("-"),
+                                                   quiet = FALSE) ##removed xxxx sequences
+finalAlign_V8 <- as.character(finalAlign_V8)
+finalAlign_V8 <- as.alignment(finalAlign_V8) 
+```
+
+##V8 Tree##
+```{r}
+#Make Distance Matrix (using library(seqinr))#
+dist_matrix_v8 <- dist.alignment(finalAlign_V8, "identity")
+
+#Make Neighbor-joining Tree (using library(ape))#
+NJ_Tree_v8 <- njs(dist_matrix_v8)
+
+#Write Tree in Newick Format#
+write.tree(NJ_Tree_v8, file = "Example_file_V8.newick", append = FALSE,
+           digits = 10, tree.names = TRUE)
+```
+
+##Subset V9##
+```{r}
+final=list()
+for(i in 1:length(Example_file$seq)){ 
+  sequences=Example_file$seq[i] 
+  sequences=unlist(strsplit(sequences,''))
+  sequences=sequences[start_base:end_base] #add in start & end base numbers
+  final[i]=print(paste(sequences,collapse=''))}
+finalAlign_V9= seqinr::as.alignment(nb=Example_file$nb,nam=Example_file$nam,seq=final,com=Example_file$com) 
+
+#Remove rows with only “-“#
+finalAlign_V9 <- as.DNAbin(finalAlign_V9)
+(V9Removed <- identifyEmptyCells(finalAlign_V9))
+finalAlign_V9 <- deleteEmptyCells(finalAlign_V9, margin = c(1), nset = c("-"),
+                                                   quiet = FALSE) ##removed xxxx sequences
+finalAlign_V9 <- as.character(finalAlign_V9)
+finalAlign_V9 <- as.alignment(finalAlign_V9) 
+```
+
+##V9 Tree##
+```{r}
+#Make Distance Matrix (using library(seqinr))#
+dist_matrix_v9 <- dist.alignment(finalAlign_V9, "identity")
+
+#Make Neighbor-joining Tree (using library(ape))#
+NJ_Tree_v9 <- njs(dist_matrix_v9)
+
+#Write Tree in Newick Format#
+write.tree(NJ_Tree_v9, file = "Example_file_V9.newick", append = FALSE,
+           digits = 10, tree.names = TRUE)
+```

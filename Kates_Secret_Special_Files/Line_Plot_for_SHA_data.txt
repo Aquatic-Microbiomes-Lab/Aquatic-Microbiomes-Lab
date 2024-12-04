@@ -1,0 +1,79 @@
+---
+Title: Line Plot for SHA data
+
+Author: Kate Brown
+
+Date: 2022-7-20
+
+Purpose: Create standard curve for SHA results
+---
+
+##Load packages## might need dplyr?
+```{r}
+library(ggplot2)
+```
+
+##Create dataframe##
+```{r}
+od <- rbind(optical densities)
+bv <-rbind(biovolumes)
+df <- data.frame(bv, od)
+
+av <- aggregate(df$od, list(df$bv), FUN=mean)
+sd <- aggregate(df$od, list(df$bv), FUN=sd)
+
+df2 <- data.frame(av,sd)
+df2 = subset(df2, select = -c(Group.1.1))
+colnames(df2) <- c("bv","av","sd")
+```
+
+##Regression equation##
+```{r}
+lm_eqn <- function(df2){
+    m <- lm(av ~ bv, df2);
+    eq <- substitute(italic(y) == a + b %.% italic(x)*","~~italic(r)^2~"="~r2, 
+         list(a = format(unname(coef(m)[1]), digits = 2),
+              b = format(unname(coef(m)[2]), digits = 2),
+             r2 = format(summary(m)$r.squared, digits = 3)))
+    as.character(as.expression(eq));
+}
+
+data_summary <- function(data, varname, groupnames){
+  require(plyr)
+  summary_func <- function(x, col){
+    c(mean = mean(x[[col]], na.rm=TRUE),
+      sd = sd(x[[col]], na.rm=TRUE))
+  }
+  data_sum<-ddply(data, groupnames, .fun=summary_func,
+                  varname)
+  data_sum <- rename(data_sum, c("mean" = varname))
+ return(data_sum)
+}
+```
+
+##ggplot2##
+```{r}
+ggplot(df2, aes(x=bv, y=av)) + 
+  geom_point(size=2.5) +
+  geom_smooth(method=lm, se=FALSE,col = "black", size=0.75) +
+  geom_text(x=3000,y=0.35, label = lm_eqn(df2), parse = TRUE, size=5) +		#add regression equation
+  geom_hline(yintercept=xxxx,linetype=2) +						#set background absorbance
+  geom_errorbar( aes(ymin = av-sd, ymax = av+sd),width = 0.2) +			#standard deviation error bars
+  xlab(bquote('Biovolume ('*mm^{"3"}/L*') 100 µL '*homogenate^{-1}*'')) +
+  ylab("OD (405 nm)") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, xxxx), 				#set upper y-axis limit
+	labels = scales::number_format(accuracy = 0.1)) + 
+  scale_x_continuous(expand = c(0, 0), limits = c(0, xxxx)) +				#set upper x-axis limit
+  theme_bw() +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  theme(text = element_text(size = 15, color = 'black')) + 
+  theme(axis.title.x = element_text(vjust = -1))  +
+  theme(axis.text.x = element_text(size = 13, color = "black", vjust=-0.5), 
+	plot.margin = margin(10, 25, 10, 10)) +
+  theme(axis.text.y = element_text(size = 13, color = "black")) +
+  theme(panel.border = element_blank()) +
+  theme(axis.line = element_line(colour = 'black', size = .75)) +
+  theme(axis.ticks = element_line(colour = "black", size = .75))
+
+ggsave(“File_name.png", path = “./“, width = x, height = y)
+```

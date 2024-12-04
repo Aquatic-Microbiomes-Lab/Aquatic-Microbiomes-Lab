@@ -1,0 +1,80 @@
+---
+Title: Lake Victoria Map
+
+Author: Kate Brown
+
+Date: 2022-12-06
+
+Notes: https://datacarpentry.org/r-raster-vector-geospatial/06-vector-open-shapefile-in-r/
+---
+
+```{r}
+#Load packages#
+library(sf)
+library(ggplot2)
+library(ggrepel)
+library(stringr)
+
+#Set wd#
+setwd("./")
+
+#Import shape file - it has shape#
+aoi_boundary_LV <- st_read("srtm_eastafrica_latlong.shp")
+aoi_boundary_LV  <- aoi_boundary_LV %>% st_set_crs("WGS84")   #set to lat/long
+st_geometry_type(aoi_boundary_LV)
+st_crs(aoi_boundary_LV)
+st_bbox(aoi_boundary_LV)
+
+rivers <- st_read("Rivers.shp")
+
+#Import site metadata#
+sites <- read.csv("WG_sites.csv")
+```
+
+##ggplot##
+```{r}
+#Whole Lake Victoria#
+ggplot() + 
+  geom_sf(data = aoi_boundary_LV, size = 3, color = "black", fill = "lightsteelblue2") + 
+  ggtitle("Lake Victoria Map") + 
+  geom_sf(data = rivers, col = 'lightskyblue3') +
+  coord_sf() +
+  theme(panel.grid= element_blank(),
+        panel.background = element_rect(fill="NA"),
+        panel.border = element_rect(colour = "black", fill=NA, size=1),
+        axis.text.x = element_text(size = 7, color = "black", vjust=3),
+        axis.text.y = element_text(size = 7, color = "black", angle=90),
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.ticks=element_blank())
+
+#Crop to Winam Gulf#
+sf_use_s2(FALSE)                                                            #overrides projection of map
+
+WG <- st_crop(aoi_boundary_LV, xmin=34.2, xmax=35, ymin=-0.6, ymax=-0.08)   #clips out Winam Gulf
+WG  <- WG %>% st_set_crs("WGS84")                                           #set CRS for subset
+
+rivers <- st_crop(rivers, xmin=34.2, xmax=35, ymin=-0.6, ymax=-0.08)        #clips out rivers
+
+#ggplot#
+ggplot() + 
+  geom_sf(data = WG, size = 4, color = "black", fill = "lightsteelblue2") +
+  geom_sf(data = rivers, color="lightskyblue3") +
+  coord_sf() +
+  theme(panel.grid= element_blank(),
+        panel.background = element_rect(fill="NA"),
+        panel.border = element_rect(colour = "black", fill=NA, size=1),
+        axis.text.x = element_text(size = 7, color = "black", vjust=3),
+        axis.text.y = element_text(size = 7, color = "black", angle=90),
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.ticks=element_blank()) +
+  scale_x_continuous(expand = c(0,0), labstels = function(x) str_c(x,'°E'), breaks=seq(34.3,34.9, 0.1)) +
+  scale_y_continuous(labels = function(x) str_c(x,'°S')) +
+  geom_point(data=sites, aes(long,lat),shape=19,color="black", size=2) +
+  geom_label_repel(data=sites, aes(long,lat, label=site_name),
+      box.padding = 0.2,point.padding = 0.01,segment.color = "black",
+      segment.size= 1,size = 2)
+  
+ggsave("Winam Gulf.png", path = "./", width = 5, height = 4)
+```
