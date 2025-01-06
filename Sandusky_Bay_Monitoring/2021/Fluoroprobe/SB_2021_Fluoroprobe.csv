@@ -1,0 +1,1009 @@
+date,site,rep,AlgalClass,Concentration,date1
+4/26/2021,Bridge,A,GreenAlgae_avg,5.092,26-Apr-21
+4/26/2021,Bridge,A,Bluegreen_avg,1.086,26-Apr-21
+4/26/2021,Bridge,A,Diatom_avg,8.9505,26-Apr-21
+4/26/2021,Bridge,A,Cryptophyta_avg,0.3555,26-Apr-21
+4/26/2021,Bridge,A,YellowSubstances_avg,0.708,26-Apr-21
+4/26/2021,Bridge,A,Total_avg,15.482,26-Apr-21
+4/26/2021,Buoy 2,A,GreenAlgae_avg,1.3655,26-Apr-21
+4/26/2021,Buoy 2,A,Bluegreen_avg,0.597,26-Apr-21
+4/26/2021,Buoy 2,A,Diatom_avg,1.3525,26-Apr-21
+4/26/2021,Buoy 2,A,Cryptophyta_avg,0.3015,26-Apr-21
+4/26/2021,Buoy 2,A,YellowSubstances_avg,0.423,26-Apr-21
+4/26/2021,Buoy 2,A,Total_avg,3.618,26-Apr-21
+4/26/2021,EC 1163,A,GreenAlgae_avg,0,26-Apr-21
+4/26/2021,EC 1163,A,Bluegreen_avg,5.00E-04,26-Apr-21
+4/26/2021,EC 1163,A,Diatom_avg,0,26-Apr-21
+4/26/2021,EC 1163,A,Cryptophyta_avg,0,26-Apr-21
+4/26/2021,EC 1163,A,YellowSubstances_avg,0.0475,26-Apr-21
+4/26/2021,EC 1163,A,Total_avg,5.00E-04,26-Apr-21
+4/26/2021,Muddy Creek,A,GreenAlgae_avg,10.5165,26-Apr-21
+4/26/2021,Muddy Creek,A,Bluegreen_avg,0.569,26-Apr-21
+4/26/2021,Muddy Creek,A,Diatom_avg,6.1315,26-Apr-21
+4/26/2021,Muddy Creek,A,Cryptophyta_avg,2.334,26-Apr-21
+4/26/2021,Muddy Creek,A,YellowSubstances_avg,1.1275,26-Apr-21
+4/26/2021,Muddy Creek,A,Total_avg,19.5525,26-Apr-21
+4/26/2021,ODNR 1,A,GreenAlgae_avg,1.9945,26-Apr-21
+4/26/2021,ODNR 1,A,Bluegreen_avg,0.3415,26-Apr-21
+4/26/2021,ODNR 1,A,Diatom_avg,4.7165,26-Apr-21
+4/26/2021,ODNR 1,A,Cryptophyta_avg,0.454,26-Apr-21
+4/26/2021,ODNR 1,A,YellowSubstances_avg,0.478,26-Apr-21
+4/26/2021,ODNR 1,A,Total_avg,7.505,26-Apr-21
+4/26/2021,ODNR 2,A,GreenAlgae_avg,2.4535,26-Apr-21
+4/26/2021,ODNR 2,A,Bluegreen_avg,0.793,26-Apr-21
+4/26/2021,ODNR 2,A,Diatom_avg,9.3935,26-Apr-21
+4/26/2021,ODNR 2,A,Cryptophyta_avg,0.497,26-Apr-21
+4/26/2021,ODNR 2,A,YellowSubstances_avg,0.955,26-Apr-21
+4/26/2021,ODNR 2,A,Total_avg,13.137,26-Apr-21
+4/26/2021,ODNR 4,A,GreenAlgae_avg,9.208,26-Apr-21
+4/26/2021,ODNR 4,A,Bluegreen_avg,0.7915,26-Apr-21
+4/26/2021,ODNR 4,A,Diatom_avg,12.6805,26-Apr-21
+4/26/2021,ODNR 4,A,Cryptophyta_avg,1.6915,26-Apr-21
+4/26/2021,ODNR 4,A,YellowSubstances_avg,1.9045,26-Apr-21
+4/26/2021,ODNR 4,A,Total_avg,24.373,26-Apr-21
+4/26/2021,ODNR 6,A,GreenAlgae_avg,10.4455,26-Apr-21
+4/26/2021,ODNR 6,A,Bluegreen_avg,0.433,26-Apr-21
+4/26/2021,ODNR 6,A,Diatom_avg,13.411,26-Apr-21
+4/26/2021,ODNR 6,A,Cryptophyta_avg,1.0765,26-Apr-21
+4/26/2021,ODNR 6,A,YellowSubstances_avg,1.5465,26-Apr-21
+4/26/2021,ODNR 6,A,Total_avg,25.366,26-Apr-21
+5/11/2021,Bridge,A,GreenAlgae_avg,22.7845,11-May-21
+5/11/2021,Bridge,A,Bluegreen_avg,0.899,11-May-21
+5/11/2021,Bridge,A,Diatom_avg,13.9765,11-May-21
+5/11/2021,Bridge,A,Cryptophyta_avg,6.4465,11-May-21
+5/11/2021,Bridge,A,YellowSubstances_avg,2.8175,11-May-21
+5/11/2021,Bridge,A,Total_avg,44.108,11-May-21
+5/11/2021,Bridge,B,GreenAlgae_avg,22.104,11-May-21
+5/11/2021,Bridge,B,Bluegreen_avg,1.134,11-May-21
+5/11/2021,Bridge,B,Diatom_avg,14.3135,11-May-21
+5/11/2021,Bridge,B,Cryptophyta_avg,6.892,11-May-21
+5/11/2021,Bridge,B,YellowSubstances_avg,2.95,11-May-21
+5/11/2021,Bridge,B,Total_avg,44.443,11-May-21
+5/11/2021,Bridge,C,GreenAlgae_avg,23.9995,11-May-21
+5/11/2021,Bridge,C,Bluegreen_avg,0.7745,11-May-21
+5/11/2021,Bridge,C,Diatom_avg,14.2795,11-May-21
+5/11/2021,Bridge,C,Cryptophyta_avg,6.597,11-May-21
+5/11/2021,Bridge,C,YellowSubstances_avg,2.653,11-May-21
+5/11/2021,Bridge,C,Total_avg,45.6515,11-May-21
+5/11/2021,Buoy 2,A,GreenAlgae_avg,25.8635,11-May-21
+5/11/2021,Buoy 2,A,Bluegreen_avg,0.7,11-May-21
+5/11/2021,Buoy 2,A,Diatom_avg,18.0065,11-May-21
+5/11/2021,Buoy 2,A,Cryptophyta_avg,6.3465,11-May-21
+5/11/2021,Buoy 2,A,YellowSubstances_avg,2.7435,11-May-21
+5/11/2021,Buoy 2,A,Total_avg,50.918,11-May-21
+5/11/2021,Buoy 2,B,GreenAlgae_avg,25.6265,11-May-21
+5/11/2021,Buoy 2,B,Bluegreen_avg,0.6515,11-May-21
+5/11/2021,Buoy 2,B,Diatom_avg,18.1335,11-May-21
+5/11/2021,Buoy 2,B,Cryptophyta_avg,6.357,11-May-21
+5/11/2021,Buoy 2,B,YellowSubstances_avg,2.7925,11-May-21
+5/11/2021,Buoy 2,B,Total_avg,50.768,11-May-21
+5/11/2021,Buoy 2,C,GreenAlgae_avg,26.525,11-May-21
+5/11/2021,Buoy 2,C,Bluegreen_avg,0.4655,11-May-21
+5/11/2021,Buoy 2,C,Diatom_avg,17.785,11-May-21
+5/11/2021,Buoy 2,C,Cryptophyta_avg,6.419,11-May-21
+5/11/2021,Buoy 2,C,YellowSubstances_avg,2.7285,11-May-21
+5/11/2021,Buoy 2,C,Total_avg,51.1945,11-May-21
+5/11/2021,EC 1163,A,GreenAlgae_avg,16.636,11-May-21
+5/11/2021,EC 1163,A,Bluegreen_avg,0,11-May-21
+5/11/2021,EC 1163,A,Diatom_avg,16.7645,11-May-21
+5/11/2021,EC 1163,A,Cryptophyta_avg,3.335,11-May-21
+5/11/2021,EC 1163,A,YellowSubstances_avg,1.921,11-May-21
+5/11/2021,EC 1163,A,Total_avg,36.734,11-May-21
+5/11/2021,EC 1163,B,GreenAlgae_avg,15.0115,11-May-21
+5/11/2021,EC 1163,B,Bluegreen_avg,0,11-May-21
+5/11/2021,EC 1163,B,Diatom_avg,15.3705,11-May-21
+5/11/2021,EC 1163,B,Cryptophyta_avg,3.203,11-May-21
+5/11/2021,EC 1163,B,YellowSubstances_avg,1.942,11-May-21
+5/11/2021,EC 1163,B,Total_avg,33.586,11-May-21
+5/11/2021,EC 1163,C,GreenAlgae_avg,16.506,11-May-21
+5/11/2021,EC 1163,C,Bluegreen_avg,0,11-May-21
+5/11/2021,EC 1163,C,Diatom_avg,15.759,11-May-21
+5/11/2021,EC 1163,C,Cryptophyta_avg,3.363,11-May-21
+5/11/2021,EC 1163,C,YellowSubstances_avg,1.923,11-May-21
+5/11/2021,EC 1163,C,Total_avg,35.6265,11-May-21
+5/11/2021,Muddy Creek,A,GreenAlgae_avg,2.441,11-May-21
+5/11/2021,Muddy Creek,A,Bluegreen_avg,3.509,11-May-21
+5/11/2021,Muddy Creek,A,Diatom_avg,6.647,11-May-21
+5/11/2021,Muddy Creek,A,Cryptophyta_avg,0.0145,11-May-21
+5/11/2021,Muddy Creek,A,YellowSubstances_avg,0.7805,11-May-21
+5/11/2021,Muddy Creek,A,Total_avg,12.6085,11-May-21
+5/11/2021,Muddy Creek,B,GreenAlgae_avg,2.8225,11-May-21
+5/11/2021,Muddy Creek,B,Bluegreen_avg,4.0435,11-May-21
+5/11/2021,Muddy Creek,B,Diatom_avg,6.547,11-May-21
+5/11/2021,Muddy Creek,B,Cryptophyta_avg,5.00E-04,11-May-21
+5/11/2021,Muddy Creek,B,YellowSubstances_avg,0.6895,11-May-21
+5/11/2021,Muddy Creek,B,Total_avg,13.4135,11-May-21
+5/11/2021,Muddy Creek,C,GreenAlgae_avg,2.433,11-May-21
+5/11/2021,Muddy Creek,C,Bluegreen_avg,3.692,11-May-21
+5/11/2021,Muddy Creek,C,Diatom_avg,6.926,11-May-21
+5/11/2021,Muddy Creek,C,Cryptophyta_avg,0,11-May-21
+5/11/2021,Muddy Creek,C,YellowSubstances_avg,0.6215,11-May-21
+5/11/2021,Muddy Creek,C,Total_avg,13.05,11-May-21
+5/11/2021,ODNR 1,A,GreenAlgae_avg,27.9355,11-May-21
+5/11/2021,ODNR 1,A,Bluegreen_avg,0.694,11-May-21
+5/11/2021,ODNR 1,A,Diatom_avg,17.6485,11-May-21
+5/11/2021,ODNR 1,A,Cryptophyta_avg,7,11-May-21
+5/11/2021,ODNR 1,A,YellowSubstances_avg,2.898,11-May-21
+5/11/2021,ODNR 1,A,Total_avg,53.279,11-May-21
+5/11/2021,ODNR 1,B,GreenAlgae_avg,29.15,11-May-21
+5/11/2021,ODNR 1,B,Bluegreen_avg,0.7305,11-May-21
+5/11/2021,ODNR 1,B,Diatom_avg,18.451,11-May-21
+5/11/2021,ODNR 1,B,Cryptophyta_avg,6.946,11-May-21
+5/11/2021,ODNR 1,B,YellowSubstances_avg,2.8495,11-May-21
+5/11/2021,ODNR 1,B,Total_avg,55.277,11-May-21
+5/11/2021,ODNR 1,C,GreenAlgae_avg,27.534,11-May-21
+5/11/2021,ODNR 1,C,Bluegreen_avg,0.971,11-May-21
+5/11/2021,ODNR 1,C,Diatom_avg,17.5805,11-May-21
+5/11/2021,ODNR 1,C,Cryptophyta_avg,7.039,11-May-21
+5/11/2021,ODNR 1,C,YellowSubstances_avg,3.0265,11-May-21
+5/11/2021,ODNR 1,C,Total_avg,53.123,11-May-21
+5/11/2021,ODNR 1,I,GreenAlgae_avg,28.682,11-May-21
+5/11/2021,ODNR 1,I,Bluegreen_avg,0.647,11-May-21
+5/11/2021,ODNR 1,I,Diatom_avg,17.694,11-May-21
+5/11/2021,ODNR 1,I,Cryptophyta_avg,6.858,11-May-21
+5/11/2021,ODNR 1,I,YellowSubstances_avg,2.865,11-May-21
+5/11/2021,ODNR 1,I,Total_avg,53.8775,11-May-21
+5/11/2021,ODNR 2,A,GreenAlgae_avg,26.1885,11-May-21
+5/11/2021,ODNR 2,A,Bluegreen_avg,1.0785,11-May-21
+5/11/2021,ODNR 2,A,Diatom_avg,15.4205,11-May-21
+5/11/2021,ODNR 2,A,Cryptophyta_avg,6.9415,11-May-21
+5/11/2021,ODNR 2,A,YellowSubstances_avg,3.128,11-May-21
+5/11/2021,ODNR 2,A,Total_avg,49.6305,11-May-21
+5/11/2021,ODNR 2,B,GreenAlgae_avg,29.402,11-May-21
+5/11/2021,ODNR 2,B,Bluegreen_avg,0.8065,11-May-21
+5/11/2021,ODNR 2,B,Diatom_avg,16.672,11-May-21
+5/11/2021,ODNR 2,B,Cryptophyta_avg,6.693,11-May-21
+5/11/2021,ODNR 2,B,YellowSubstances_avg,2.8685,11-May-21
+5/11/2021,ODNR 2,B,Total_avg,53.573,11-May-21
+5/11/2021,ODNR 2,C,GreenAlgae_avg,27.15,11-May-21
+5/11/2021,ODNR 2,C,Bluegreen_avg,1.1275,11-May-21
+5/11/2021,ODNR 2,C,Diatom_avg,15.847,11-May-21
+5/11/2021,ODNR 2,C,Cryptophyta_avg,6.3335,11-May-21
+5/11/2021,ODNR 2,C,YellowSubstances_avg,2.9295,11-May-21
+5/11/2021,ODNR 2,C,Total_avg,50.458,11-May-21
+5/11/2021,ODNR 2,I,GreenAlgae_avg,29.1755,11-May-21
+5/11/2021,ODNR 2,I,Bluegreen_avg,0.856,11-May-21
+5/11/2021,ODNR 2,I,Diatom_avg,16.546,11-May-21
+5/11/2021,ODNR 2,I,Cryptophyta_avg,6.803,11-May-21
+5/11/2021,ODNR 2,I,YellowSubstances_avg,2.9885,11-May-21
+5/11/2021,ODNR 2,I,Total_avg,53.382,11-May-21
+5/11/2021,ODNR 4,A,GreenAlgae_avg,3.3025,11-May-21
+5/11/2021,ODNR 4,A,Bluegreen_avg,3.373,11-May-21
+5/11/2021,ODNR 4,A,Diatom_avg,8.044,11-May-21
+5/11/2021,ODNR 4,A,Cryptophyta_avg,0.0595,11-May-21
+5/11/2021,ODNR 4,A,YellowSubstances_avg,0.906,11-May-21
+5/11/2021,ODNR 4,A,Total_avg,14.7795,11-May-21
+5/11/2021,ODNR 4,B,GreenAlgae_avg,3.1885,11-May-21
+5/11/2021,ODNR 4,B,Bluegreen_avg,3.4615,11-May-21
+5/11/2021,ODNR 4,B,Diatom_avg,7.82,11-May-21
+5/11/2021,ODNR 4,B,Cryptophyta_avg,0.0835,11-May-21
+5/11/2021,ODNR 4,B,YellowSubstances_avg,0.892,11-May-21
+5/11/2021,ODNR 4,B,Total_avg,14.552,11-May-21
+5/11/2021,ODNR 4,C,GreenAlgae_avg,2.6865,11-May-21
+5/11/2021,ODNR 4,C,Bluegreen_avg,3.3835,11-May-21
+5/11/2021,ODNR 4,C,Diatom_avg,7.45,11-May-21
+5/11/2021,ODNR 4,C,Cryptophyta_avg,0.0635,11-May-21
+5/11/2021,ODNR 4,C,YellowSubstances_avg,1.017,11-May-21
+5/11/2021,ODNR 4,C,Total_avg,13.586,11-May-21
+5/11/2021,ODNR 4,I,GreenAlgae_avg,2.7855,11-May-21
+5/11/2021,ODNR 4,I,Bluegreen_avg,3.151,11-May-21
+5/11/2021,ODNR 4,I,Diatom_avg,7.7975,11-May-21
+5/11/2021,ODNR 4,I,Cryptophyta_avg,0.0795,11-May-21
+5/11/2021,ODNR 4,I,YellowSubstances_avg,0.8335,11-May-21
+5/11/2021,ODNR 4,I,Total_avg,13.8125,11-May-21
+5/11/2021,ODNR 6,A,GreenAlgae_avg,12.052,11-May-21
+5/11/2021,ODNR 6,A,Bluegreen_avg,0.0705,11-May-21
+5/11/2021,ODNR 6,A,Diatom_avg,18.91,11-May-21
+5/11/2021,ODNR 6,A,Cryptophyta_avg,2.741,11-May-21
+5/11/2021,ODNR 6,A,YellowSubstances_avg,2.3935,11-May-21
+5/11/2021,ODNR 6,A,Total_avg,33.7725,11-May-21
+5/11/2021,ODNR 6,B,GreenAlgae_avg,12.2425,11-May-21
+5/11/2021,ODNR 6,B,Bluegreen_avg,0.0265,11-May-21
+5/11/2021,ODNR 6,B,Diatom_avg,20.5685,11-May-21
+5/11/2021,ODNR 6,B,Cryptophyta_avg,2.956,11-May-21
+5/11/2021,ODNR 6,B,YellowSubstances_avg,2.3555,11-May-21
+5/11/2021,ODNR 6,B,Total_avg,35.793,11-May-21
+5/11/2021,ODNR 6,C,GreenAlgae_avg,14.0315,11-May-21
+5/11/2021,ODNR 6,C,Bluegreen_avg,0.0455,11-May-21
+5/11/2021,ODNR 6,C,Diatom_avg,22.76,11-May-21
+5/11/2021,ODNR 6,C,Cryptophyta_avg,3.5955,11-May-21
+5/11/2021,ODNR 6,C,YellowSubstances_avg,2.2385,11-May-21
+5/11/2021,ODNR 6,C,Total_avg,40.4335,11-May-21
+5/11/2021,ODNR 6,I,GreenAlgae_avg,15.0405,11-May-21
+5/11/2021,ODNR 6,I,Bluegreen_avg,0.218,11-May-21
+5/11/2021,ODNR 6,I,Diatom_avg,24.544,11-May-21
+5/11/2021,ODNR 6,I,Cryptophyta_avg,4.2215,11-May-21
+5/11/2021,ODNR 6,I,YellowSubstances_avg,2.2175,11-May-21
+5/11/2021,ODNR 6,I,Total_avg,44.0225,11-May-21
+5/24/2021,Bells,A,GreenAlgae_avg,2.412666667,24-May-21
+5/24/2021,Bells,A,Bluegreen_avg,0,24-May-21
+5/24/2021,Bells,A,Diatom_avg,2.23,24-May-21
+5/24/2021,Bells,A,Cryptophyta_avg,0.002,24-May-21
+5/24/2021,Bells,A,YellowSubstances_avg,0.440666667,24-May-21
+5/24/2021,Bells,A,Total_avg,4.644666667,24-May-21
+5/24/2021,Bridge,A,GreenAlgae_avg,8.557333333,24-May-21
+5/24/2021,Bridge,A,Bluegreen_avg,2.468666667,24-May-21
+5/24/2021,Bridge,A,Diatom_avg,9.464666667,24-May-21
+5/24/2021,Bridge,A,Cryptophyta_avg,4.922,24-May-21
+5/24/2021,Bridge,A,YellowSubstances_avg,2.891333333,24-May-21
+5/24/2021,Bridge,A,Total_avg,25.41266667,24-May-21
+5/24/2021,Buoy 2,A,GreenAlgae_avg,4.524,24-May-21
+5/24/2021,Buoy 2,A,Bluegreen_avg,0.39,24-May-21
+5/24/2021,Buoy 2,A,Diatom_avg,0,24-May-21
+5/24/2021,Buoy 2,A,Cryptophyta_avg,3.562,24-May-21
+5/24/2021,Buoy 2,A,YellowSubstances_avg,1.691333333,24-May-21
+5/24/2021,Buoy 2,A,Total_avg,8.475333333,24-May-21
+5/24/2021,EC 1163,A,GreenAlgae_avg,4.954,24-May-21
+5/24/2021,EC 1163,A,Bluegreen_avg,0.579,24-May-21
+5/24/2021,EC 1163,A,Diatom_avg,0.998,24-May-21
+5/24/2021,EC 1163,A,Cryptophyta_avg,2.273,24-May-21
+5/24/2021,EC 1163,A,YellowSubstances_avg,1.554,24-May-21
+5/24/2021,EC 1163,A,Total_avg,8.8,24-May-21
+5/24/2021,Muddy Creek,A,GreenAlgae_avg,9.572,24-May-21
+5/24/2021,Muddy Creek,A,Bluegreen_avg,1.896666667,24-May-21
+5/24/2021,Muddy Creek,A,Diatom_avg,20.718,24-May-21
+5/24/2021,Muddy Creek,A,Cryptophyta_avg,1.969333333,24-May-21
+5/24/2021,Muddy Creek,A,YellowSubstances_avg,3.373333333,24-May-21
+5/24/2021,Muddy Creek,A,Total_avg,34.15333333,24-May-21
+5/24/2021,ODNR 1,A,GreenAlgae_avg,2.379333333,24-May-21
+5/24/2021,ODNR 1,A,Bluegreen_avg,0.291333333,24-May-21
+5/24/2021,ODNR 1,A,Diatom_avg,0,24-May-21
+5/24/2021,ODNR 1,A,Cryptophyta_avg,2.567333333,24-May-21
+5/24/2021,ODNR 1,A,YellowSubstances_avg,1.613333333,24-May-21
+5/24/2021,ODNR 1,A,Total_avg,5.238666667,24-May-21
+5/24/2021,ODNR 2,A,GreenAlgae_avg,1.985333333,24-May-21
+5/24/2021,ODNR 2,A,Bluegreen_avg,0.454,24-May-21
+5/24/2021,ODNR 2,A,Diatom_avg,0.054,24-May-21
+5/24/2021,ODNR 2,A,Cryptophyta_avg,1.804,24-May-21
+5/24/2021,ODNR 2,A,YellowSubstances_avg,1.611333333,24-May-21
+5/24/2021,ODNR 2,A,Total_avg,4.298,24-May-21
+5/24/2021,ODNR 4,A,GreenAlgae_avg,14.846,24-May-21
+5/24/2021,ODNR 4,A,Bluegreen_avg,5.863333333,24-May-21
+5/24/2021,ODNR 4,A,Diatom_avg,24.09933333,24-May-21
+5/24/2021,ODNR 4,A,Cryptophyta_avg,6.724,24-May-21
+5/24/2021,ODNR 4,A,YellowSubstances_avg,3.206,24-May-21
+5/24/2021,ODNR 4,A,Total_avg,51.532,24-May-21
+5/24/2021,ODNR 6,A,GreenAlgae_avg,15.71428571,24-May-21
+5/24/2021,ODNR 6,A,Bluegreen_avg,1.135714286,24-May-21
+5/24/2021,ODNR 6,A,Diatom_avg,9.064285714,24-May-21
+5/24/2021,ODNR 6,A,Cryptophyta_avg,18.995,24-May-21
+5/24/2021,ODNR 6,A,YellowSubstances_avg,3.466428571,24-May-21
+5/24/2021,ODNR 6,A,Total_avg,44.90714286,24-May-21
+6/7/2021,Bells,A,GreenAlgae_avg,2.337,7-Jun-21
+6/7/2021,Bells,A,Bluegreen_avg,0.705,7-Jun-21
+6/7/2021,Bells,A,Diatom_avg,1.1105,7-Jun-21
+6/7/2021,Bells,A,Cryptophyta_avg,2.0325,7-Jun-21
+6/7/2021,Bells,A,YellowSubstances_avg,0.586,7-Jun-21
+6/7/2021,Bells,A,Total_avg,6.184,7-Jun-21
+6/7/2021,Bridge,A,GreenAlgae_avg,8.7945,7-Jun-21
+6/7/2021,Bridge,A,Bluegreen_avg,0.812,7-Jun-21
+6/7/2021,Bridge,A,Diatom_avg,3.5075,7-Jun-21
+6/7/2021,Bridge,A,Cryptophyta_avg,5.326,7-Jun-21
+6/7/2021,Bridge,A,YellowSubstances_avg,2.6255,7-Jun-21
+6/7/2021,Bridge,A,Total_avg,18.4395,7-Jun-21
+6/7/2021,Buoy 2,A,GreenAlgae_avg,3.709,7-Jun-21
+6/7/2021,Buoy 2,A,Bluegreen_avg,1.0535,7-Jun-21
+6/7/2021,Buoy 2,A,Diatom_avg,1.5915,7-Jun-21
+6/7/2021,Buoy 2,A,Cryptophyta_avg,3.282,7-Jun-21
+6/7/2021,Buoy 2,A,YellowSubstances_avg,1.1905,7-Jun-21
+6/7/2021,Buoy 2,A,Total_avg,9.636,7-Jun-21
+6/7/2021,EC 1163,A,GreenAlgae_avg,0.9055,7-Jun-21
+6/7/2021,EC 1163,A,Bluegreen_avg,1.253,7-Jun-21
+6/7/2021,EC 1163,A,Diatom_avg,0.156,7-Jun-21
+6/7/2021,EC 1163,A,Cryptophyta_avg,0.322,7-Jun-21
+6/7/2021,EC 1163,A,YellowSubstances_avg,0.1765,7-Jun-21
+6/7/2021,EC 1163,A,Total_avg,2.636,7-Jun-21
+6/7/2021,Muddy Creek,A,GreenAlgae_avg,11.701,7-Jun-21
+6/7/2021,Muddy Creek,A,Bluegreen_avg,0.7335,7-Jun-21
+6/7/2021,Muddy Creek,A,Diatom_avg,11.497,7-Jun-21
+6/7/2021,Muddy Creek,A,Cryptophyta_avg,2.8275,7-Jun-21
+6/7/2021,Muddy Creek,A,YellowSubstances_avg,1.491,7-Jun-21
+6/7/2021,Muddy Creek,A,Total_avg,26.7585,7-Jun-21
+6/7/2021,ODNR 1,A,GreenAlgae_avg,3.5205,7-Jun-21
+6/7/2021,ODNR 1,A,Bluegreen_avg,1.347,7-Jun-21
+6/7/2021,ODNR 1,A,Diatom_avg,1.6995,7-Jun-21
+6/7/2021,ODNR 1,A,Cryptophyta_avg,1.5305,7-Jun-21
+6/7/2021,ODNR 1,A,YellowSubstances_avg,0.9905,7-Jun-21
+6/7/2021,ODNR 1,A,Total_avg,8.099,7-Jun-21
+6/7/2021,ODNR 2,A,GreenAlgae_avg,7.971,7-Jun-21
+6/7/2021,ODNR 2,A,Bluegreen_avg,0.64,7-Jun-21
+6/7/2021,ODNR 2,A,Diatom_avg,0.7705,7-Jun-21
+6/7/2021,ODNR 2,A,Cryptophyta_avg,5.5325,7-Jun-21
+6/7/2021,ODNR 2,A,YellowSubstances_avg,1.3725,7-Jun-21
+6/7/2021,ODNR 2,A,Total_avg,14.9145,7-Jun-21
+6/7/2021,ODNR 4,A,GreenAlgae_avg,17.33,7-Jun-21
+6/7/2021,ODNR 4,A,Bluegreen_avg,0.345,7-Jun-21
+6/7/2021,ODNR 4,A,Diatom_avg,31.699,7-Jun-21
+6/7/2021,ODNR 4,A,Cryptophyta_avg,7.167,7-Jun-21
+6/7/2021,ODNR 4,A,YellowSubstances_avg,1.8845,7-Jun-21
+6/7/2021,ODNR 4,A,Total_avg,56.543,7-Jun-21
+6/7/2021,ODNR 6,A,GreenAlgae_avg,5.752,7-Jun-21
+6/7/2021,ODNR 6,A,Bluegreen_avg,0.769,7-Jun-21
+6/7/2021,ODNR 6,A,Diatom_avg,0.385,7-Jun-21
+6/7/2021,ODNR 6,A,Cryptophyta_avg,5.5045,7-Jun-21
+6/7/2021,ODNR 6,A,YellowSubstances_avg,1.567,7-Jun-21
+6/7/2021,ODNR 6,A,Total_avg,12.412,7-Jun-21
+6/14/2021,Bells,A,GreenAlgae_avg,0.772,14-Jun-21
+6/14/2021,Bells,A,Bluegreen_avg,0.2465,14-Jun-21
+6/14/2021,Bells,A,Diatom_avg,0.5375,14-Jun-21
+6/14/2021,Bells,A,Cryptophyta_avg,0.642,14-Jun-21
+6/14/2021,Bells,A,YellowSubstances_avg,0.3635,14-Jun-21
+6/14/2021,Bells,A,Total_avg,2.198,14-Jun-21
+6/14/2021,Bridge,A,GreenAlgae_avg,10.687,14-Jun-21
+6/14/2021,Bridge,A,Bluegreen_avg,2.081,14-Jun-21
+6/14/2021,Bridge,A,Diatom_avg,4.5425,14-Jun-21
+6/14/2021,Bridge,A,Cryptophyta_avg,3.095,14-Jun-21
+6/14/2021,Bridge,A,YellowSubstances_avg,1.799,14-Jun-21
+6/14/2021,Bridge,A,Total_avg,20.404,14-Jun-21
+6/14/2021,Buoy 2,A,GreenAlgae_avg,6.6395,14-Jun-21
+6/14/2021,Buoy 2,A,Bluegreen_avg,1.0925,14-Jun-21
+6/14/2021,Buoy 2,A,Diatom_avg,1.475,14-Jun-21
+6/14/2021,Buoy 2,A,Cryptophyta_avg,3.16,14-Jun-21
+6/14/2021,Buoy 2,A,YellowSubstances_avg,1.3405,14-Jun-21
+6/14/2021,Buoy 2,A,Total_avg,12.3665,14-Jun-21
+6/14/2021,EC 1163,A,GreenAlgae_avg,12.8695,14-Jun-21
+6/14/2021,EC 1163,A,Bluegreen_avg,2.299,14-Jun-21
+6/14/2021,EC 1163,A,Diatom_avg,1.437,14-Jun-21
+6/14/2021,EC 1163,A,Cryptophyta_avg,2.987,14-Jun-21
+6/14/2021,EC 1163,A,YellowSubstances_avg,1.233,14-Jun-21
+6/14/2021,EC 1163,A,Total_avg,19.592,14-Jun-21
+6/14/2021,Muddy Creek,A,GreenAlgae_avg,10.736,14-Jun-21
+6/14/2021,Muddy Creek,A,Bluegreen_avg,2.675,14-Jun-21
+6/14/2021,Muddy Creek,A,Diatom_avg,17.8415,14-Jun-21
+6/14/2021,Muddy Creek,A,Cryptophyta_avg,3.1505,14-Jun-21
+6/14/2021,Muddy Creek,A,YellowSubstances_avg,1.0865,14-Jun-21
+6/14/2021,Muddy Creek,A,Total_avg,34.404,14-Jun-21
+6/14/2021,ODNR 1,A,GreenAlgae_avg,3.704,14-Jun-21
+6/14/2021,ODNR 1,A,Bluegreen_avg,0.769,14-Jun-21
+6/14/2021,ODNR 1,A,Diatom_avg,0.59,14-Jun-21
+6/14/2021,ODNR 1,A,Cryptophyta_avg,0.4415,14-Jun-21
+6/14/2021,ODNR 1,A,YellowSubstances_avg,0.8825,14-Jun-21
+6/14/2021,ODNR 1,A,Total_avg,5.505,14-Jun-21
+6/14/2021,ODNR 2,A,GreenAlgae_avg,5.909,14-Jun-21
+6/14/2021,ODNR 2,A,Bluegreen_avg,0.8425,14-Jun-21
+6/14/2021,ODNR 2,A,Diatom_avg,0.4215,14-Jun-21
+6/14/2021,ODNR 2,A,Cryptophyta_avg,3.339,14-Jun-21
+6/14/2021,ODNR 2,A,YellowSubstances_avg,0.9325,14-Jun-21
+6/14/2021,ODNR 2,A,Total_avg,10.5135,14-Jun-21
+6/14/2021,ODNR 4,A,GreenAlgae_avg,5.693,14-Jun-21
+6/14/2021,ODNR 4,A,Bluegreen_avg,1.341,14-Jun-21
+6/14/2021,ODNR 4,A,Diatom_avg,2.9355,14-Jun-21
+6/14/2021,ODNR 4,A,Cryptophyta_avg,2.913,14-Jun-21
+6/14/2021,ODNR 4,A,YellowSubstances_avg,2.1545,14-Jun-21
+6/14/2021,ODNR 4,A,Total_avg,12.883,14-Jun-21
+6/14/2021,ODNR 6,A,GreenAlgae_avg,10.785,14-Jun-21
+6/14/2021,ODNR 6,A,Bluegreen_avg,0.648,14-Jun-21
+6/14/2021,ODNR 6,A,Diatom_avg,1.376,14-Jun-21
+6/14/2021,ODNR 6,A,Cryptophyta_avg,4.181,14-Jun-21
+6/14/2021,ODNR 6,A,YellowSubstances_avg,1.646,14-Jun-21
+6/14/2021,ODNR 6,A,Total_avg,16.992,14-Jun-21
+6/21/2021,Bridge,A,GreenAlgae_avg,8.2785,21-Jun-21
+6/21/2021,Bridge,A,Bluegreen_avg,9.4455,21-Jun-21
+6/21/2021,Bridge,A,Diatom_avg,5.0435,21-Jun-21
+6/21/2021,Bridge,A,Cryptophyta_avg,5.2795,21-Jun-21
+6/21/2021,Bridge,A,YellowSubstances_avg,1.6125,21-Jun-21
+6/21/2021,Bridge,A,Total_avg,28.047,21-Jun-21
+6/21/2021,Muddy Creek,A,GreenAlgae_avg,13.2005,21-Jun-21
+6/21/2021,Muddy Creek,A,Bluegreen_avg,2.536,21-Jun-21
+6/21/2021,Muddy Creek,A,Diatom_avg,56.1805,21-Jun-21
+6/21/2021,Muddy Creek,A,Cryptophyta_avg,6.837,21-Jun-21
+6/21/2021,Muddy Creek,A,YellowSubstances_avg,1.1995,21-Jun-21
+6/21/2021,Muddy Creek,A,Total_avg,78.7505,21-Jun-21
+6/21/2021,ODNR 4,A,GreenAlgae_avg,8.784,21-Jun-21
+6/21/2021,ODNR 4,A,Bluegreen_avg,2.9235,21-Jun-21
+6/21/2021,ODNR 4,A,Diatom_avg,35.283,21-Jun-21
+6/21/2021,ODNR 4,A,Cryptophyta_avg,4.9675,21-Jun-21
+6/21/2021,ODNR 4,A,YellowSubstances_avg,2.0275,21-Jun-21
+6/21/2021,ODNR 4,A,Total_avg,51.9585,21-Jun-21
+6/21/2021,ODNR 6,A,GreenAlgae_avg,12.1465,21-Jun-21
+6/21/2021,ODNR 6,A,Bluegreen_avg,7.5655,21-Jun-21
+6/21/2021,ODNR 6,A,Diatom_avg,7.129,21-Jun-21
+6/21/2021,ODNR 6,A,Cryptophyta_avg,5.6985,21-Jun-21
+6/21/2021,ODNR 6,A,YellowSubstances_avg,1.7375,21-Jun-21
+6/21/2021,ODNR 6,A,Total_avg,32.5415,21-Jun-21
+6/28/2021,Bridge,A,GreenAlgae_avg,8.939,28-Jun-21
+6/28/2021,Bridge,A,Bluegreen_avg,7.854,28-Jun-21
+6/28/2021,Bridge,A,Diatom_avg,3.2475,28-Jun-21
+6/28/2021,Bridge,A,Cryptophyta_avg,3.9315,28-Jun-21
+6/28/2021,Bridge,A,YellowSubstances_avg,1.725,28-Jun-21
+6/28/2021,Bridge,A,Total_avg,23.9725,28-Jun-21
+6/28/2021,Buoy 2,A,GreenAlgae_avg,2.3845,28-Jun-21
+6/28/2021,Buoy 2,A,Bluegreen_avg,2.333,28-Jun-21
+6/28/2021,Buoy 2,A,Diatom_avg,1.4085,28-Jun-21
+6/28/2021,Buoy 2,A,Cryptophyta_avg,0.8795,28-Jun-21
+6/28/2021,Buoy 2,A,YellowSubstances_avg,0.6655,28-Jun-21
+6/28/2021,Buoy 2,A,Total_avg,7.006,28-Jun-21
+6/28/2021,EC 1163,A,GreenAlgae_avg,7.6865,28-Jun-21
+6/28/2021,EC 1163,A,Bluegreen_avg,6.5385,28-Jun-21
+6/28/2021,EC 1163,A,Diatom_avg,10.9845,28-Jun-21
+6/28/2021,EC 1163,A,Cryptophyta_avg,3.109,28-Jun-21
+6/28/2021,EC 1163,A,YellowSubstances_avg,1.924,28-Jun-21
+6/28/2021,EC 1163,A,Total_avg,28.3185,28-Jun-21
+6/28/2021,Muddy Creek,A,GreenAlgae_avg,16.55,28-Jun-21
+6/28/2021,Muddy Creek,A,Bluegreen_avg,9.1965,28-Jun-21
+6/28/2021,Muddy Creek,A,Diatom_avg,46.686,28-Jun-21
+6/28/2021,Muddy Creek,A,Cryptophyta_avg,14.32,28-Jun-21
+6/28/2021,Muddy Creek,A,YellowSubstances_avg,2.7395,28-Jun-21
+6/28/2021,Muddy Creek,A,Total_avg,86.7525,28-Jun-21
+6/28/2021,ODNR 1,A,GreenAlgae_avg,2.131,28-Jun-21
+6/28/2021,ODNR 1,A,Bluegreen_avg,2.2535,28-Jun-21
+6/28/2021,ODNR 1,A,Diatom_avg,1.166,28-Jun-21
+6/28/2021,ODNR 1,A,Cryptophyta_avg,1.3235,28-Jun-21
+6/28/2021,ODNR 1,A,YellowSubstances_avg,0.699,28-Jun-21
+6/28/2021,ODNR 1,A,Total_avg,6.8755,28-Jun-21
+6/28/2021,ODNR 2,A,GreenAlgae_avg,2.4495,28-Jun-21
+6/28/2021,ODNR 2,A,Bluegreen_avg,0.88,28-Jun-21
+6/28/2021,ODNR 2,A,Diatom_avg,1.7775,28-Jun-21
+6/28/2021,ODNR 2,A,Cryptophyta_avg,0.619,28-Jun-21
+6/28/2021,ODNR 2,A,YellowSubstances_avg,0.493,28-Jun-21
+6/28/2021,ODNR 2,A,Total_avg,5.7285,28-Jun-21
+6/28/2021,ODNR 4,A,GreenAlgae_avg,9.625,28-Jun-21
+6/28/2021,ODNR 4,A,Bluegreen_avg,5.1775,28-Jun-21
+6/28/2021,ODNR 4,A,Diatom_avg,10.406,28-Jun-21
+6/28/2021,ODNR 4,A,Cryptophyta_avg,4.84,28-Jun-21
+6/28/2021,ODNR 4,A,YellowSubstances_avg,1.2635,28-Jun-21
+6/28/2021,ODNR 4,A,Total_avg,30.047,28-Jun-21
+6/28/2021,ODNR 6,A,GreenAlgae_avg,12.329,28-Jun-21
+6/28/2021,ODNR 6,A,Bluegreen_avg,10.535,28-Jun-21
+6/28/2021,ODNR 6,A,Diatom_avg,4.0575,28-Jun-21
+6/28/2021,ODNR 6,A,Cryptophyta_avg,6.9105,28-Jun-21
+6/28/2021,ODNR 6,A,YellowSubstances_avg,1.4255,28-Jun-21
+6/28/2021,ODNR 6,A,Total_avg,33.832,28-Jun-21
+7/6/2021,Bells,A,GreenAlgae_avg,2.8955,6-Jul-21
+7/6/2021,Bells,A,Bluegreen_avg,1.836,6-Jul-21
+7/6/2021,Bells,A,Diatom_avg,2.095,6-Jul-21
+7/6/2021,Bells,A,Cryptophyta_avg,1.6635,6-Jul-21
+7/6/2021,Bells,A,YellowSubstances_avg,0.761,6-Jul-21
+7/6/2021,Bells,A,Total_avg,8.488,6-Jul-21
+7/6/2021,Bridge,A,GreenAlgae_avg,6.865,6-Jul-21
+7/6/2021,Bridge,A,Bluegreen_avg,3,6-Jul-21
+7/6/2021,Bridge,A,Diatom_avg,1.9335,6-Jul-21
+7/6/2021,Bridge,A,Cryptophyta_avg,2.2825,6-Jul-21
+7/6/2021,Bridge,A,YellowSubstances_avg,0.505,6-Jul-21
+7/6/2021,Bridge,A,Total_avg,14.0805,6-Jul-21
+7/6/2021,Buoy 2,A,GreenAlgae_avg,15.1905,6-Jul-21
+7/6/2021,Buoy 2,A,Bluegreen_avg,5.645,6-Jul-21
+7/6/2021,Buoy 2,A,Diatom_avg,4.3455,6-Jul-21
+7/6/2021,Buoy 2,A,Cryptophyta_avg,2.1605,6-Jul-21
+7/6/2021,Buoy 2,A,YellowSubstances_avg,1.0605,6-Jul-21
+7/6/2021,Buoy 2,A,Total_avg,27.3415,6-Jul-21
+7/6/2021,EC 1163,A,GreenAlgae_avg,12.0115,6-Jul-21
+7/6/2021,EC 1163,A,Bluegreen_avg,6.5045,6-Jul-21
+7/6/2021,EC 1163,A,Diatom_avg,4.1055,6-Jul-21
+7/6/2021,EC 1163,A,Cryptophyta_avg,1.7845,6-Jul-21
+7/6/2021,EC 1163,A,YellowSubstances_avg,1.329,6-Jul-21
+7/6/2021,EC 1163,A,Total_avg,24.405,6-Jul-21
+7/6/2021,Muddy Creek,A,GreenAlgae_avg,0.01,6-Jul-21
+7/6/2021,Muddy Creek,A,Bluegreen_avg,0.823,6-Jul-21
+7/6/2021,Muddy Creek,A,Diatom_avg,0.0405,6-Jul-21
+7/6/2021,Muddy Creek,A,Cryptophyta_avg,0.018,6-Jul-21
+7/6/2021,Muddy Creek,A,YellowSubstances_avg,0.0145,6-Jul-21
+7/6/2021,Muddy Creek,A,Total_avg,0.8915,6-Jul-21
+7/6/2021,ODNR 1,A,GreenAlgae_avg,14.4655,6-Jul-21
+7/6/2021,ODNR 1,A,Bluegreen_avg,5.417,6-Jul-21
+7/6/2021,ODNR 1,A,Diatom_avg,1.5415,6-Jul-21
+7/6/2021,ODNR 1,A,Cryptophyta_avg,3.76,6-Jul-21
+7/6/2021,ODNR 1,A,YellowSubstances_avg,1.3955,6-Jul-21
+7/6/2021,ODNR 1,A,Total_avg,25.185,6-Jul-21
+7/6/2021,ODNR 2,A,GreenAlgae_avg,17.358,6-Jul-21
+7/6/2021,ODNR 2,A,Bluegreen_avg,5.706,6-Jul-21
+7/6/2021,ODNR 2,A,Diatom_avg,5.2825,6-Jul-21
+7/6/2021,ODNR 2,A,Cryptophyta_avg,3.5755,6-Jul-21
+7/6/2021,ODNR 2,A,YellowSubstances_avg,1.483,6-Jul-21
+7/6/2021,ODNR 2,A,Total_avg,31.9235,6-Jul-21
+7/6/2021,ODNR 4,A,GreenAlgae_avg,31.035,6-Jul-21
+7/6/2021,ODNR 4,A,Bluegreen_avg,3.5315,6-Jul-21
+7/6/2021,ODNR 4,A,Diatom_avg,38.779,6-Jul-21
+7/6/2021,ODNR 4,A,Cryptophyta_avg,13.879,6-Jul-21
+7/6/2021,ODNR 4,A,YellowSubstances_avg,2.8245,6-Jul-21
+7/6/2021,ODNR 4,A,Total_avg,87.225,6-Jul-21
+7/6/2021,ODNR 6,A,GreenAlgae_avg,33.8725,6-Jul-21
+7/6/2021,ODNR 6,A,Bluegreen_avg,10.704,6-Jul-21
+7/6/2021,ODNR 6,A,Diatom_avg,7.851,6-Jul-21
+7/6/2021,ODNR 6,A,Cryptophyta_avg,13.0785,6-Jul-21
+7/6/2021,ODNR 6,A,YellowSubstances_avg,2.919,6-Jul-21
+7/6/2021,ODNR 6,A,Total_avg,65.5065,6-Jul-21
+7/12/2021,Bridge,A,GreenAlgae_avg,21.883,12-Jul-21
+7/12/2021,Bridge,A,Bluegreen_avg,8.6465,12-Jul-21
+7/12/2021,Bridge,A,Diatom_avg,0,12-Jul-21
+7/12/2021,Bridge,A,Cryptophyta_avg,21.0815,12-Jul-21
+7/12/2021,Bridge,A,YellowSubstances_avg,4.1,12-Jul-21
+7/12/2021,Bridge,A,Total_avg,51.6125,12-Jul-21
+7/12/2021,Buoy 2,A,GreenAlgae_avg,20.9965,12-Jul-21
+7/12/2021,Buoy 2,A,Bluegreen_avg,9.7775,12-Jul-21
+7/12/2021,Buoy 2,A,Diatom_avg,0,12-Jul-21
+7/12/2021,Buoy 2,A,Cryptophyta_avg,11.6075,12-Jul-21
+7/12/2021,Buoy 2,A,YellowSubstances_avg,3.392,12-Jul-21
+7/12/2021,Buoy 2,A,Total_avg,42.38,12-Jul-21
+7/12/2021,EC 1163,A,GreenAlgae_avg,19.55,12-Jul-21
+7/12/2021,EC 1163,A,Bluegreen_avg,7.819,12-Jul-21
+7/12/2021,EC 1163,A,Diatom_avg,0.1935,12-Jul-21
+7/12/2021,EC 1163,A,Cryptophyta_avg,11.144,12-Jul-21
+7/12/2021,EC 1163,A,YellowSubstances_avg,3.069,12-Jul-21
+7/12/2021,EC 1163,A,Total_avg,38.7065,12-Jul-21
+7/12/2021,Muddy Creek,A,GreenAlgae_avg,33.4625,12-Jul-21
+7/12/2021,Muddy Creek,A,Bluegreen_avg,3.812,12-Jul-21
+7/12/2021,Muddy Creek,A,Diatom_avg,23.594,12-Jul-21
+7/12/2021,Muddy Creek,A,Cryptophyta_avg,30.8055,12-Jul-21
+7/12/2021,Muddy Creek,A,YellowSubstances_avg,5.5225,12-Jul-21
+7/12/2021,Muddy Creek,A,Total_avg,91.6765,12-Jul-21
+7/12/2021,ODNR 1,A,GreenAlgae_avg,20.311,12-Jul-21
+7/12/2021,ODNR 1,A,Bluegreen_avg,9.67,12-Jul-21
+7/12/2021,ODNR 1,A,Diatom_avg,0,12-Jul-21
+7/12/2021,ODNR 1,A,Cryptophyta_avg,11.888,12-Jul-21
+7/12/2021,ODNR 1,A,YellowSubstances_avg,3.421,12-Jul-21
+7/12/2021,ODNR 1,A,Total_avg,41.869,12-Jul-21
+7/12/2021,ODNR 2,A,GreenAlgae_avg,22.182,12-Jul-21
+7/12/2021,ODNR 2,A,Bluegreen_avg,9.604,12-Jul-21
+7/12/2021,ODNR 2,A,Diatom_avg,0,12-Jul-21
+7/12/2021,ODNR 2,A,Cryptophyta_avg,12.643,12-Jul-21
+7/12/2021,ODNR 2,A,YellowSubstances_avg,3.248,12-Jul-21
+7/12/2021,ODNR 2,A,Total_avg,44.43,12-Jul-21
+7/12/2021,ODNR 4,A,GreenAlgae_avg,45.202,12-Jul-21
+7/12/2021,ODNR 4,A,Bluegreen_avg,10.24,12-Jul-21
+7/12/2021,ODNR 4,A,Diatom_avg,15.976,12-Jul-21
+7/12/2021,ODNR 4,A,Cryptophyta_avg,33.2345,12-Jul-21
+7/12/2021,ODNR 4,A,YellowSubstances_avg,6.1325,12-Jul-21
+7/12/2021,ODNR 4,A,Total_avg,104.6555,12-Jul-21
+7/12/2021,ODNR 6,A,GreenAlgae_avg,23.8465,12-Jul-21
+7/12/2021,ODNR 6,A,Bluegreen_avg,11.387,12-Jul-21
+7/12/2021,ODNR 6,A,Diatom_avg,0,12-Jul-21
+7/12/2021,ODNR 6,A,Cryptophyta_avg,30.329,12-Jul-21
+7/12/2021,ODNR 6,A,YellowSubstances_avg,5.0445,12-Jul-21
+7/12/2021,ODNR 6,A,Total_avg,65.5625,12-Jul-21
+7/19/2021,Bells,A,GreenAlgae_avg,1.117,19-Jul-21
+7/19/2021,Bells,A,Bluegreen_avg,0.138,19-Jul-21
+7/19/2021,Bells,A,Diatom_avg,1.7805,19-Jul-21
+7/19/2021,Bells,A,Cryptophyta_avg,4.6545,19-Jul-21
+7/19/2021,Bells,A,YellowSubstances_avg,0.8485,19-Jul-21
+7/19/2021,Bells,A,Total_avg,7.69,19-Jul-21
+7/19/2021,Bridge,A,GreenAlgae_avg,43.5055,19-Jul-21
+7/19/2021,Bridge,A,Bluegreen_avg,3.4005,19-Jul-21
+7/19/2021,Bridge,A,Diatom_avg,6.907,19-Jul-21
+7/19/2021,Bridge,A,Cryptophyta_avg,39.7625,19-Jul-21
+7/19/2021,Bridge,A,YellowSubstances_avg,5.209,19-Jul-21
+7/19/2021,Bridge,A,Total_avg,93.574,19-Jul-21
+7/19/2021,Buoy 2,A,GreenAlgae_avg,30.2095,19-Jul-21
+7/19/2021,Buoy 2,A,Bluegreen_avg,6.674,19-Jul-21
+7/19/2021,Buoy 2,A,Diatom_avg,9.3915,19-Jul-21
+7/19/2021,Buoy 2,A,Cryptophyta_avg,23.223,19-Jul-21
+7/19/2021,Buoy 2,A,YellowSubstances_avg,4.2755,19-Jul-21
+7/19/2021,Buoy 2,A,Total_avg,69.4975,19-Jul-21
+7/19/2021,EC 1163,A,GreenAlgae_avg,18.227,19-Jul-21
+7/19/2021,EC 1163,A,Bluegreen_avg,6.4835,19-Jul-21
+7/19/2021,EC 1163,A,Diatom_avg,2.784,19-Jul-21
+7/19/2021,EC 1163,A,Cryptophyta_avg,8.3165,19-Jul-21
+7/19/2021,EC 1163,A,YellowSubstances_avg,2.0995,19-Jul-21
+7/19/2021,EC 1163,A,Total_avg,35.812,19-Jul-21
+7/19/2021,Muddy Creek,A,GreenAlgae_avg,3.572,19-Jul-21
+7/19/2021,Muddy Creek,A,Bluegreen_avg,0.685,19-Jul-21
+7/19/2021,Muddy Creek,A,Diatom_avg,3.0715,19-Jul-21
+7/19/2021,Muddy Creek,A,Cryptophyta_avg,3.049,19-Jul-21
+7/19/2021,Muddy Creek,A,YellowSubstances_avg,2.0125,19-Jul-21
+7/19/2021,Muddy Creek,A,Total_avg,10.378,19-Jul-21
+7/19/2021,ODNR 1,A,GreenAlgae_avg,25.5695,19-Jul-21
+7/19/2021,ODNR 1,A,Bluegreen_avg,4.8345,19-Jul-21
+7/19/2021,ODNR 1,A,Diatom_avg,4.32,19-Jul-21
+7/19/2021,ODNR 1,A,Cryptophyta_avg,11.318,19-Jul-21
+7/19/2021,ODNR 1,A,YellowSubstances_avg,2.844,19-Jul-21
+7/19/2021,ODNR 1,A,Total_avg,46.0415,19-Jul-21
+7/19/2021,ODNR 2,A,GreenAlgae_avg,34.2375,19-Jul-21
+7/19/2021,ODNR 2,A,Bluegreen_avg,5.7855,19-Jul-21
+7/19/2021,ODNR 2,A,Diatom_avg,5.784,19-Jul-21
+7/19/2021,ODNR 2,A,Cryptophyta_avg,26.2595,19-Jul-21
+7/19/2021,ODNR 2,A,YellowSubstances_avg,4.7515,19-Jul-21
+7/19/2021,ODNR 2,A,Total_avg,72.068,19-Jul-21
+7/19/2021,ODNR 4,A,GreenAlgae_avg,4.6845,19-Jul-21
+7/19/2021,ODNR 4,A,Bluegreen_avg,1.052,19-Jul-21
+7/19/2021,ODNR 4,A,Diatom_avg,4.551,19-Jul-21
+7/19/2021,ODNR 4,A,Cryptophyta_avg,2.9245,19-Jul-21
+7/19/2021,ODNR 4,A,YellowSubstances_avg,1.473,19-Jul-21
+7/19/2021,ODNR 4,A,Total_avg,13.2115,19-Jul-21
+7/19/2021,ODNR 6,A,GreenAlgae_avg,42.9985,19-Jul-21
+7/19/2021,ODNR 6,A,Bluegreen_avg,5.3545,19-Jul-21
+7/19/2021,ODNR 6,A,Diatom_avg,24.48,19-Jul-21
+7/19/2021,ODNR 6,A,Cryptophyta_avg,38.0395,19-Jul-21
+7/19/2021,ODNR 6,A,YellowSubstances_avg,6.32,19-Jul-21
+7/19/2021,ODNR 6,A,Total_avg,110.8685,19-Jul-21
+7/26/2021,Bells,A,GreenAlgae_avg,13.439,26-Jul-21
+7/26/2021,Bells,A,Bluegreen_avg,2.379,26-Jul-21
+7/26/2021,Bells,A,Diatom_avg,0.8095,26-Jul-21
+7/26/2021,Bells,A,Cryptophyta_avg,8.9135,26-Jul-21
+7/26/2021,Bells,A,YellowSubstances_avg,1.9575,26-Jul-21
+7/26/2021,Bells,A,Total_avg,25.5405,26-Jul-21
+7/26/2021,Bells,B,GreenAlgae_avg,12.638,26-Jul-21
+7/26/2021,Bells,B,Bluegreen_avg,2.729,26-Jul-21
+7/26/2021,Bells,B,Diatom_avg,0.0745,26-Jul-21
+7/26/2021,Bells,B,Cryptophyta_avg,8.4355,26-Jul-21
+7/26/2021,Bells,B,YellowSubstances_avg,1.9435,26-Jul-21
+7/26/2021,Bells,B,Total_avg,23.878,26-Jul-21
+7/26/2021,Bells,C,GreenAlgae_avg,11.871,26-Jul-21
+7/26/2021,Bells,C,Bluegreen_avg,2.8725,26-Jul-21
+7/26/2021,Bells,C,Diatom_avg,0.0545,26-Jul-21
+7/26/2021,Bells,C,Cryptophyta_avg,6.81,26-Jul-21
+7/26/2021,Bells,C,YellowSubstances_avg,1.7595,26-Jul-21
+7/26/2021,Bells,C,Total_avg,21.6095,26-Jul-21
+7/26/2021,Bridge,A,GreenAlgae_avg,31.311,26-Jul-21
+7/26/2021,Bridge,A,Bluegreen_avg,5.8145,26-Jul-21
+7/26/2021,Bridge,A,Diatom_avg,14.754,26-Jul-21
+7/26/2021,Bridge,A,Cryptophyta_avg,14.126,26-Jul-21
+7/26/2021,Bridge,A,YellowSubstances_avg,4.0735,26-Jul-21
+7/26/2021,Bridge,A,Total_avg,66.006,26-Jul-21
+7/26/2021,Bridge,B,GreenAlgae_avg,48.6965,26-Jul-21
+7/26/2021,Bridge,B,Bluegreen_avg,4.8025,26-Jul-21
+7/26/2021,Bridge,B,Diatom_avg,18.115,26-Jul-21
+7/26/2021,Bridge,B,Cryptophyta_avg,24.709,26-Jul-21
+7/26/2021,Bridge,B,YellowSubstances_avg,4.702,26-Jul-21
+7/26/2021,Bridge,B,Total_avg,96.325,26-Jul-21
+7/26/2021,Bridge,C,GreenAlgae_avg,37.96,26-Jul-21
+7/26/2021,Bridge,C,Bluegreen_avg,5.4455,26-Jul-21
+7/26/2021,Bridge,C,Diatom_avg,17.3355,26-Jul-21
+7/26/2021,Bridge,C,Cryptophyta_avg,19.987,26-Jul-21
+7/26/2021,Bridge,C,YellowSubstances_avg,4.2805,26-Jul-21
+7/26/2021,Bridge,C,Total_avg,80.7275,26-Jul-21
+7/26/2021,Buoy 2,A,GreenAlgae_avg,31.504,26-Jul-21
+7/26/2021,Buoy 2,A,Bluegreen_avg,4.39,26-Jul-21
+7/26/2021,Buoy 2,A,Diatom_avg,3.599,26-Jul-21
+7/26/2021,Buoy 2,A,Cryptophyta_avg,10.001,26-Jul-21
+7/26/2021,Buoy 2,A,YellowSubstances_avg,2.873,26-Jul-21
+7/26/2021,Buoy 2,A,Total_avg,49.4955,26-Jul-21
+7/26/2021,Buoy 2,B,GreenAlgae_avg,31.307,26-Jul-21
+7/26/2021,Buoy 2,B,Bluegreen_avg,4.8525,26-Jul-21
+7/26/2021,Buoy 2,B,Diatom_avg,4.372,26-Jul-21
+7/26/2021,Buoy 2,B,Cryptophyta_avg,9.721,26-Jul-21
+7/26/2021,Buoy 2,B,YellowSubstances_avg,2.9475,26-Jul-21
+7/26/2021,Buoy 2,B,Total_avg,50.251,26-Jul-21
+7/26/2021,Buoy 2,C,GreenAlgae_avg,30.31,26-Jul-21
+7/26/2021,Buoy 2,C,Bluegreen_avg,3.678,26-Jul-21
+7/26/2021,Buoy 2,C,Diatom_avg,3.268,26-Jul-21
+7/26/2021,Buoy 2,C,Cryptophyta_avg,9.448,26-Jul-21
+7/26/2021,Buoy 2,C,YellowSubstances_avg,2.8225,26-Jul-21
+7/26/2021,Buoy 2,C,Total_avg,46.7045,26-Jul-21
+7/26/2021,EC 1163,A,GreenAlgae_avg,23.6095,26-Jul-21
+7/26/2021,EC 1163,A,Bluegreen_avg,6.1575,26-Jul-21
+7/26/2021,EC 1163,A,Diatom_avg,2.9055,26-Jul-21
+7/26/2021,EC 1163,A,Cryptophyta_avg,10.344,26-Jul-21
+7/26/2021,EC 1163,A,YellowSubstances_avg,2.591,26-Jul-21
+7/26/2021,EC 1163,A,Total_avg,43.0175,26-Jul-21
+7/26/2021,EC 1163,B,GreenAlgae_avg,20.0145,26-Jul-21
+7/26/2021,EC 1163,B,Bluegreen_avg,5.9685,26-Jul-21
+7/26/2021,EC 1163,B,Diatom_avg,2.423,26-Jul-21
+7/26/2021,EC 1163,B,Cryptophyta_avg,9.901,26-Jul-21
+7/26/2021,EC 1163,B,YellowSubstances_avg,2.809,26-Jul-21
+7/26/2021,EC 1163,B,Total_avg,38.305,26-Jul-21
+7/26/2021,EC 1163,C,GreenAlgae_avg,23.136,26-Jul-21
+7/26/2021,EC 1163,C,Bluegreen_avg,6.3735,26-Jul-21
+7/26/2021,EC 1163,C,Diatom_avg,2.4645,26-Jul-21
+7/26/2021,EC 1163,C,Cryptophyta_avg,10.3145,26-Jul-21
+7/26/2021,EC 1163,C,YellowSubstances_avg,2.6355,26-Jul-21
+7/26/2021,EC 1163,C,Total_avg,42.287,26-Jul-21
+7/26/2021,Muddy Creek,A,GreenAlgae_avg,16.7435,26-Jul-21
+7/26/2021,Muddy Creek,A,Bluegreen_avg,3.669,26-Jul-21
+7/26/2021,Muddy Creek,A,Diatom_avg,2.7445,26-Jul-21
+7/26/2021,Muddy Creek,A,Cryptophyta_avg,13.9495,26-Jul-21
+7/26/2021,Muddy Creek,A,YellowSubstances_avg,3.346,26-Jul-21
+7/26/2021,Muddy Creek,A,Total_avg,37.1045,26-Jul-21
+7/26/2021,Muddy Creek,B,GreenAlgae_avg,17.457,26-Jul-21
+7/26/2021,Muddy Creek,B,Bluegreen_avg,3.962,26-Jul-21
+7/26/2021,Muddy Creek,B,Diatom_avg,0.4865,26-Jul-21
+7/26/2021,Muddy Creek,B,Cryptophyta_avg,18.0275,26-Jul-21
+7/26/2021,Muddy Creek,B,YellowSubstances_avg,3.267,26-Jul-21
+7/26/2021,Muddy Creek,B,Total_avg,39.932,26-Jul-21
+7/26/2021,Muddy Creek,C,GreenAlgae_avg,17.1245,26-Jul-21
+7/26/2021,Muddy Creek,C,Bluegreen_avg,3.5355,26-Jul-21
+7/26/2021,Muddy Creek,C,Diatom_avg,2.0255,26-Jul-21
+7/26/2021,Muddy Creek,C,Cryptophyta_avg,15.1165,26-Jul-21
+7/26/2021,Muddy Creek,C,YellowSubstances_avg,3.3965,26-Jul-21
+7/26/2021,Muddy Creek,C,Total_avg,37.8015,26-Jul-21
+7/26/2021,ODNR 1,A,GreenAlgae_avg,36.8405,26-Jul-21
+7/26/2021,ODNR 1,A,Bluegreen_avg,4.972,26-Jul-21
+7/26/2021,ODNR 1,A,Diatom_avg,6.6925,26-Jul-21
+7/26/2021,ODNR 1,A,Cryptophyta_avg,12.152,26-Jul-21
+7/26/2021,ODNR 1,A,YellowSubstances_avg,3.329,26-Jul-21
+7/26/2021,ODNR 1,A,Total_avg,60.658,26-Jul-21
+7/26/2021,ODNR 1,B,GreenAlgae_avg,36.6975,26-Jul-21
+7/26/2021,ODNR 1,B,Bluegreen_avg,6.4495,26-Jul-21
+7/26/2021,ODNR 1,B,Diatom_avg,5.7115,26-Jul-21
+7/26/2021,ODNR 1,B,Cryptophyta_avg,14.8765,26-Jul-21
+7/26/2021,ODNR 1,B,YellowSubstances_avg,3.419,26-Jul-21
+7/26/2021,ODNR 1,B,Total_avg,63.7385,26-Jul-21
+7/26/2021,ODNR 1,C,GreenAlgae_avg,35.5685,26-Jul-21
+7/26/2021,ODNR 1,C,Bluegreen_avg,5.427,26-Jul-21
+7/26/2021,ODNR 1,C,Diatom_avg,4.241,26-Jul-21
+7/26/2021,ODNR 1,C,Cryptophyta_avg,13.0525,26-Jul-21
+7/26/2021,ODNR 1,C,YellowSubstances_avg,3.3295,26-Jul-21
+7/26/2021,ODNR 1,C,Total_avg,58.2885,26-Jul-21
+7/26/2021,ODNR 1,i,GreenAlgae_avg,0,26-Jul-21
+7/26/2021,ODNR 1,i,Bluegreen_avg,0,26-Jul-21
+7/26/2021,ODNR 1,i,Diatom_avg,0,26-Jul-21
+7/26/2021,ODNR 1,i,Cryptophyta_avg,0,26-Jul-21
+7/26/2021,ODNR 1,i,YellowSubstances_avg,0,26-Jul-21
+7/26/2021,ODNR 1,i,Total_avg,0,26-Jul-21
+7/26/2021,ODNR 2,A,GreenAlgae_avg,30.959,26-Jul-21
+7/26/2021,ODNR 2,A,Bluegreen_avg,4.202,26-Jul-21
+7/26/2021,ODNR 2,A,Diatom_avg,5.2635,26-Jul-21
+7/26/2021,ODNR 2,A,Cryptophyta_avg,11.9085,26-Jul-21
+7/26/2021,ODNR 2,A,YellowSubstances_avg,3.269,26-Jul-21
+7/26/2021,ODNR 2,A,Total_avg,52.334,26-Jul-21
+7/26/2021,ODNR 2,B,GreenAlgae_avg,29.4815,26-Jul-21
+7/26/2021,ODNR 2,B,Bluegreen_avg,4.0555,26-Jul-21
+7/26/2021,ODNR 2,B,Diatom_avg,5.288,26-Jul-21
+7/26/2021,ODNR 2,B,Cryptophyta_avg,9.7365,26-Jul-21
+7/26/2021,ODNR 2,B,YellowSubstances_avg,3.1465,26-Jul-21
+7/26/2021,ODNR 2,B,Total_avg,48.562,26-Jul-21
+7/26/2021,ODNR 2,C,GreenAlgae_avg,30.65,26-Jul-21
+7/26/2021,ODNR 2,C,Bluegreen_avg,4.876,26-Jul-21
+7/26/2021,ODNR 2,C,Diatom_avg,6.975,26-Jul-21
+7/26/2021,ODNR 2,C,Cryptophyta_avg,10.0285,26-Jul-21
+7/26/2021,ODNR 2,C,YellowSubstances_avg,3.1785,26-Jul-21
+7/26/2021,ODNR 2,C,Total_avg,52.528,26-Jul-21
+7/26/2021,ODNR 2,i,GreenAlgae_avg,0,26-Jul-21
+7/26/2021,ODNR 2,i,Bluegreen_avg,0,26-Jul-21
+7/26/2021,ODNR 2,i,Diatom_avg,0,26-Jul-21
+7/26/2021,ODNR 2,i,Cryptophyta_avg,0,26-Jul-21
+7/26/2021,ODNR 2,i,YellowSubstances_avg,0,26-Jul-21
+7/26/2021,ODNR 2,i,Total_avg,0,26-Jul-21
+7/26/2021,ODNR 4,A,GreenAlgae_avg,16.383,26-Jul-21
+7/26/2021,ODNR 4,A,Bluegreen_avg,2.6275,26-Jul-21
+7/26/2021,ODNR 4,A,Diatom_avg,10.9495,26-Jul-21
+7/26/2021,ODNR 4,A,Cryptophyta_avg,13.3705,26-Jul-21
+7/26/2021,ODNR 4,A,YellowSubstances_avg,3.575,26-Jul-21
+7/26/2021,ODNR 4,A,Total_avg,43.3305,26-Jul-21
+7/26/2021,ODNR 4,B,GreenAlgae_avg,12.8665,26-Jul-21
+7/26/2021,ODNR 4,B,Bluegreen_avg,2.51,26-Jul-21
+7/26/2021,ODNR 4,B,Diatom_avg,9.5575,26-Jul-21
+7/26/2021,ODNR 4,B,Cryptophyta_avg,9.3245,26-Jul-21
+7/26/2021,ODNR 4,B,YellowSubstances_avg,3.734,26-Jul-21
+7/26/2021,ODNR 4,B,Total_avg,34.2605,26-Jul-21
+7/26/2021,ODNR 4,C,GreenAlgae_avg,11.9515,26-Jul-21
+7/26/2021,ODNR 4,C,Bluegreen_avg,2.8935,26-Jul-21
+7/26/2021,ODNR 4,C,Diatom_avg,9.123,26-Jul-21
+7/26/2021,ODNR 4,C,Cryptophyta_avg,7.3615,26-Jul-21
+7/26/2021,ODNR 4,C,YellowSubstances_avg,3.6265,26-Jul-21
+7/26/2021,ODNR 4,C,Total_avg,31.3285,26-Jul-21
+7/26/2021,ODNR 4,i,GreenAlgae_avg,16.3645,26-Jul-21
+7/26/2021,ODNR 4,i,Bluegreen_avg,2.0465,26-Jul-21
+7/26/2021,ODNR 4,i,Diatom_avg,10.8345,26-Jul-21
+7/26/2021,ODNR 4,i,Cryptophyta_avg,16.5135,26-Jul-21
+7/26/2021,ODNR 4,i,YellowSubstances_avg,3.8315,26-Jul-21
+7/26/2021,ODNR 4,i,Total_avg,45.7595,26-Jul-21
+7/26/2021,ODNR 6,A,GreenAlgae_avg,0,26-Jul-21
+7/26/2021,ODNR 6,A,Bluegreen_avg,0,26-Jul-21
+7/26/2021,ODNR 6,A,Diatom_avg,0,26-Jul-21
+7/26/2021,ODNR 6,A,Cryptophyta_avg,0,26-Jul-21
+7/26/2021,ODNR 6,A,YellowSubstances_avg,0,26-Jul-21
+7/26/2021,ODNR 6,A,Total_avg,0,26-Jul-21
+7/26/2021,ODNR 6,B,GreenAlgae_avg,26.858,26-Jul-21
+7/26/2021,ODNR 6,B,Bluegreen_avg,4.2955,26-Jul-21
+7/26/2021,ODNR 6,B,Diatom_avg,17.807,26-Jul-21
+7/26/2021,ODNR 6,B,Cryptophyta_avg,14.7795,26-Jul-21
+7/26/2021,ODNR 6,B,YellowSubstances_avg,4.4835,26-Jul-21
+7/26/2021,ODNR 6,B,Total_avg,63.739,26-Jul-21
+7/26/2021,ODNR 6,C,GreenAlgae_avg,5.2725,26-Jul-21
+7/26/2021,ODNR 6,C,Bluegreen_avg,0.7285,26-Jul-21
+7/26/2021,ODNR 6,C,Diatom_avg,3.485,26-Jul-21
+7/26/2021,ODNR 6,C,Cryptophyta_avg,2.6985,26-Jul-21
+7/26/2021,ODNR 6,C,YellowSubstances_avg,0.872,26-Jul-21
+7/26/2021,ODNR 6,C,Total_avg,12.185,26-Jul-21
+7/26/2021,ODNR 6,i,GreenAlgae_avg,36.0745,26-Jul-21
+7/26/2021,ODNR 6,i,Bluegreen_avg,3.6185,26-Jul-21
+7/26/2021,ODNR 6,i,Diatom_avg,19.222,26-Jul-21
+7/26/2021,ODNR 6,i,Cryptophyta_avg,18.9625,26-Jul-21
+7/26/2021,ODNR 6,i,YellowSubstances_avg,4.806,26-Jul-21
+7/26/2021,ODNR 6,i,Total_avg,77.877,26-Jul-21
+8/2/2021,Bells,A,GreenAlgae_avg,3.4105,2-Aug-21
+8/2/2021,Bells,A,Bluegreen_avg,1.234,2-Aug-21
+8/2/2021,Bells,A,Diatom_avg,3.0395,2-Aug-21
+8/2/2021,Bells,A,Cryptophyta_avg,7.115,2-Aug-21
+8/2/2021,Bells,A,YellowSubstances_avg,1.838,2-Aug-21
+8/2/2021,Bells,A,Total_avg,14.7975,2-Aug-21
+8/2/2021,Bridge,A,GreenAlgae_avg,29.432,2-Aug-21
+8/2/2021,Bridge,A,Bluegreen_avg,9.027,2-Aug-21
+8/2/2021,Bridge,A,Diatom_avg,8.952,2-Aug-21
+8/2/2021,Bridge,A,Cryptophyta_avg,13.7725,2-Aug-21
+8/2/2021,Bridge,A,YellowSubstances_avg,4.0745,2-Aug-21
+8/2/2021,Bridge,A,Total_avg,61.1805,2-Aug-21
+8/2/2021,Buoy 2,A,GreenAlgae_avg,24.409,2-Aug-21
+8/2/2021,Buoy 2,A,Bluegreen_avg,9.617,2-Aug-21
+8/2/2021,Buoy 2,A,Diatom_avg,0.1785,2-Aug-21
+8/2/2021,Buoy 2,A,Cryptophyta_avg,9.762,2-Aug-21
+8/2/2021,Buoy 2,A,YellowSubstances_avg,3.254,2-Aug-21
+8/2/2021,Buoy 2,A,Total_avg,43.967,2-Aug-21
+8/2/2021,EC 1163,A,GreenAlgae_avg,28.3585,2-Aug-21
+8/2/2021,EC 1163,A,Bluegreen_avg,9.9145,2-Aug-21
+8/2/2021,EC 1163,A,Diatom_avg,7.798,2-Aug-21
+8/2/2021,EC 1163,A,Cryptophyta_avg,17.682,2-Aug-21
+8/2/2021,EC 1163,A,YellowSubstances_avg,4.39,2-Aug-21
+8/2/2021,EC 1163,A,Total_avg,63.752,2-Aug-21
+8/2/2021,Muddy Creek,A,GreenAlgae_avg,32.2585,2-Aug-21
+8/2/2021,Muddy Creek,A,Bluegreen_avg,2.106,2-Aug-21
+8/2/2021,Muddy Creek,A,Diatom_avg,42.553,2-Aug-21
+8/2/2021,Muddy Creek,A,Cryptophyta_avg,22.5805,2-Aug-21
+8/2/2021,Muddy Creek,A,YellowSubstances_avg,3.6435,2-Aug-21
+8/2/2021,Muddy Creek,A,Total_avg,99.498,2-Aug-21
+8/2/2021,ODNR 1,A,GreenAlgae_avg,22.425,2-Aug-21
+8/2/2021,ODNR 1,A,Bluegreen_avg,9.299,2-Aug-21
+8/2/2021,ODNR 1,A,Diatom_avg,0.2135,2-Aug-21
+8/2/2021,ODNR 1,A,Cryptophyta_avg,10.0545,2-Aug-21
+8/2/2021,ODNR 1,A,YellowSubstances_avg,3.1795,2-Aug-21
+8/2/2021,ODNR 1,A,Total_avg,41.993,2-Aug-21
+8/2/2021,ODNR 2,A,GreenAlgae_avg,30.6745,2-Aug-21
+8/2/2021,ODNR 2,A,Bluegreen_avg,7.699,2-Aug-21
+8/2/2021,ODNR 2,A,Diatom_avg,6.953,2-Aug-21
+8/2/2021,ODNR 2,A,Cryptophyta_avg,12.6895,2-Aug-21
+8/2/2021,ODNR 2,A,YellowSubstances_avg,3.738,2-Aug-21
+8/2/2021,ODNR 2,A,Total_avg,58.0145,2-Aug-21
+8/2/2021,ODNR 4,A,GreenAlgae_avg,39.0795,2-Aug-21
+8/2/2021,ODNR 4,A,Bluegreen_avg,6.0445,2-Aug-21
+8/2/2021,ODNR 4,A,Diatom_avg,62.7395,2-Aug-21
+8/2/2021,ODNR 4,A,Cryptophyta_avg,24.9755,2-Aug-21
+8/2/2021,ODNR 4,A,YellowSubstances_avg,4.202,2-Aug-21
+8/2/2021,ODNR 4,A,Total_avg,132.838,2-Aug-21
+8/2/2021,ODNR 6,A,GreenAlgae_avg,44.464,2-Aug-21
+8/2/2021,ODNR 6,A,Bluegreen_avg,9.723,2-Aug-21
+8/2/2021,ODNR 6,A,Diatom_avg,16.497,2-Aug-21
+8/2/2021,ODNR 6,A,Cryptophyta_avg,22.164,2-Aug-21
+8/2/2021,ODNR 6,A,YellowSubstances_avg,4.728,2-Aug-21
+8/2/2021,ODNR 6,A,Total_avg,92.85,2-Aug-21
+8/9/2021,Bells,A,GreenAlgae_avg,2.332,9-Aug-21
+8/9/2021,Bells,A,Bluegreen_avg,2.974,9-Aug-21
+8/9/2021,Bells,A,Diatom_avg,0.4665,9-Aug-21
+8/9/2021,Bells,A,Cryptophyta_avg,4.2545,9-Aug-21
+8/9/2021,Bells,A,YellowSubstances_avg,0.8945,9-Aug-21
+8/9/2021,Bells,A,Total_avg,10.029,9-Aug-21
+8/9/2021,Bridge,A,GreenAlgae_avg,2.508,9-Aug-21
+8/9/2021,Bridge,A,Bluegreen_avg,0.9925,9-Aug-21
+8/9/2021,Bridge,A,Diatom_avg,0.8785,9-Aug-21
+8/9/2021,Bridge,A,Cryptophyta_avg,1.302,9-Aug-21
+8/9/2021,Bridge,A,YellowSubstances_avg,0.3555,9-Aug-21
+8/9/2021,Bridge,A,Total_avg,5.6815,9-Aug-21
+8/9/2021,Buoy 2,A,GreenAlgae_avg,21.769,9-Aug-21
+8/9/2021,Buoy 2,A,Bluegreen_avg,5.702,9-Aug-21
+8/9/2021,Buoy 2,A,Diatom_avg,1.072,9-Aug-21
+8/9/2021,Buoy 2,A,Cryptophyta_avg,8.843,9-Aug-21
+8/9/2021,Buoy 2,A,YellowSubstances_avg,2.3005,9-Aug-21
+8/9/2021,Buoy 2,A,Total_avg,37.389,9-Aug-21
+8/9/2021,EC 1163,A,GreenAlgae_avg,16.332,9-Aug-21
+8/9/2021,EC 1163,A,Bluegreen_avg,5.505,9-Aug-21
+8/9/2021,EC 1163,A,Diatom_avg,0.9865,9-Aug-21
+8/9/2021,EC 1163,A,Cryptophyta_avg,8.212,9-Aug-21
+8/9/2021,EC 1163,A,YellowSubstances_avg,1.772,9-Aug-21
+8/9/2021,EC 1163,A,Total_avg,31.036,9-Aug-21
+8/9/2021,Muddy Creek,A,GreenAlgae_avg,23.9,9-Aug-21
+8/9/2021,Muddy Creek,A,Bluegreen_avg,4.863,9-Aug-21
+8/9/2021,Muddy Creek,A,Diatom_avg,18.1255,9-Aug-21
+8/9/2021,Muddy Creek,A,Cryptophyta_avg,14.957,9-Aug-21
+8/9/2021,Muddy Creek,A,YellowSubstances_avg,1.2055,9-Aug-21
+8/9/2021,Muddy Creek,A,Total_avg,61.8455,9-Aug-21
+8/9/2021,ODNR 1,A,GreenAlgae_avg,16.363,9-Aug-21
+8/9/2021,ODNR 1,A,Bluegreen_avg,5.7455,9-Aug-21
+8/9/2021,ODNR 1,A,Diatom_avg,0.241,9-Aug-21
+8/9/2021,ODNR 1,A,Cryptophyta_avg,7.2415,9-Aug-21
+8/9/2021,ODNR 1,A,YellowSubstances_avg,1.9115,9-Aug-21
+8/9/2021,ODNR 1,A,Total_avg,29.5925,9-Aug-21
+8/9/2021,ODNR 2,A,GreenAlgae_avg,16.3465,9-Aug-21
+8/9/2021,ODNR 2,A,Bluegreen_avg,6.3,9-Aug-21
+8/9/2021,ODNR 2,A,Diatom_avg,0.0145,9-Aug-21
+8/9/2021,ODNR 2,A,Cryptophyta_avg,7.452,9-Aug-21
+8/9/2021,ODNR 2,A,YellowSubstances_avg,1.918,9-Aug-21
+8/9/2021,ODNR 2,A,Total_avg,30.112,9-Aug-21
+8/9/2021,ODNR 4,A,GreenAlgae_avg,36.8065,9-Aug-21
+8/9/2021,ODNR 4,A,Bluegreen_avg,5.7465,9-Aug-21
+8/9/2021,ODNR 4,A,Diatom_avg,32.0605,9-Aug-21
+8/9/2021,ODNR 4,A,Cryptophyta_avg,21.8395,9-Aug-21
+8/9/2021,ODNR 4,A,YellowSubstances_avg,3.042,9-Aug-21
+8/9/2021,ODNR 4,A,Total_avg,96.454,9-Aug-21
+8/9/2021,ODNR 6,A,GreenAlgae_avg,23.991,9-Aug-21
+8/9/2021,ODNR 6,A,Bluegreen_avg,5.6145,9-Aug-21
+8/9/2021,ODNR 6,A,Diatom_avg,8.1995,9-Aug-21
+8/9/2021,ODNR 6,A,Cryptophyta_avg,10.1085,9-Aug-21
+8/9/2021,ODNR 6,A,YellowSubstances_avg,2.625,9-Aug-21
+8/9/2021,ODNR 6,A,Total_avg,47.9145,9-Aug-21
+8/16/2021,Bells,A,GreenAlgae_avg,1.197,16-Aug-21
+8/16/2021,Bells,A,Bluegreen_avg,4.8085,16-Aug-21
+8/16/2021,Bells,A,Diatom_avg,5.3475,16-Aug-21
+8/16/2021,Bells,A,Cryptophyta_avg,14.9255,16-Aug-21
+8/16/2021,Bells,A,YellowSubstances_avg,2.541,16-Aug-21
+8/16/2021,Bells,A,Total_avg,26.28,16-Aug-21
+8/16/2021,Bridge,A,GreenAlgae_avg,28.328,16-Aug-21
+8/16/2021,Bridge,A,Bluegreen_avg,11.0235,16-Aug-21
+8/16/2021,Bridge,A,Diatom_avg,5.927,16-Aug-21
+8/16/2021,Bridge,A,Cryptophyta_avg,13.9295,16-Aug-21
+8/16/2021,Bridge,A,YellowSubstances_avg,4.1985,16-Aug-21
+8/16/2021,Bridge,A,Total_avg,59.211,16-Aug-21
+8/16/2021,Buoy 2,A,GreenAlgae_avg,29.2135,16-Aug-21
+8/16/2021,Buoy 2,A,Bluegreen_avg,16.3715,16-Aug-21
+8/16/2021,Buoy 2,A,Diatom_avg,0.118,16-Aug-21
+8/16/2021,Buoy 2,A,Cryptophyta_avg,13.7045,16-Aug-21
+8/16/2021,Buoy 2,A,YellowSubstances_avg,3.7295,16-Aug-21
+8/16/2021,Buoy 2,A,Total_avg,59.4085,16-Aug-21
+8/16/2021,EC 1163,A,GreenAlgae_avg,33.539,16-Aug-21
+8/16/2021,EC 1163,A,Bluegreen_avg,18.3325,16-Aug-21
+8/16/2021,EC 1163,A,Diatom_avg,7.5865,16-Aug-21
+8/16/2021,EC 1163,A,Cryptophyta_avg,14.6475,16-Aug-21
+8/16/2021,EC 1163,A,YellowSubstances_avg,4.4745,16-Aug-21
+8/16/2021,EC 1163,A,Total_avg,74.106,16-Aug-21
+8/16/2021,Muddy Creek,A,GreenAlgae_avg,38.404,16-Aug-21
+8/16/2021,Muddy Creek,A,Bluegreen_avg,9.6295,16-Aug-21
+8/16/2021,Muddy Creek,A,Diatom_avg,33.751,16-Aug-21
+8/16/2021,Muddy Creek,A,Cryptophyta_avg,24.1405,16-Aug-21
+8/16/2021,Muddy Creek,A,YellowSubstances_avg,3.283,16-Aug-21
+8/16/2021,Muddy Creek,A,Total_avg,105.9275,16-Aug-21
+8/16/2021,ODNR 1,A,GreenAlgae_avg,29.831,16-Aug-21
+8/16/2021,ODNR 1,A,Bluegreen_avg,15.8595,16-Aug-21
+8/16/2021,ODNR 1,A,Diatom_avg,0.0235,16-Aug-21
+8/16/2021,ODNR 1,A,Cryptophyta_avg,14.709,16-Aug-21
+8/16/2021,ODNR 1,A,YellowSubstances_avg,3.899,16-Aug-21
+8/16/2021,ODNR 1,A,Total_avg,60.423,16-Aug-21
+8/16/2021,ODNR 2,A,GreenAlgae_avg,25.932,16-Aug-21
+8/16/2021,ODNR 2,A,Bluegreen_avg,15.4015,16-Aug-21
+8/16/2021,ODNR 2,A,Diatom_avg,0.324,16-Aug-21
+8/16/2021,ODNR 2,A,Cryptophyta_avg,12.5525,16-Aug-21
+8/16/2021,ODNR 2,A,YellowSubstances_avg,3.3955,16-Aug-21
+8/16/2021,ODNR 2,A,Total_avg,54.2085,16-Aug-21
+8/16/2021,ODNR 4,A,GreenAlgae_avg,46.544,16-Aug-21
+8/16/2021,ODNR 4,A,Bluegreen_avg,15.1525,16-Aug-21
+8/16/2021,ODNR 4,A,Diatom_avg,39.4985,16-Aug-21
+8/16/2021,ODNR 4,A,Cryptophyta_avg,26.569,16-Aug-21
+8/16/2021,ODNR 4,A,YellowSubstances_avg,3.2955,16-Aug-21
+8/16/2021,ODNR 4,A,Total_avg,127.762,16-Aug-21
+8/16/2021,ODNR 6,A,GreenAlgae_avg,25.4125,16-Aug-21
+8/16/2021,ODNR 6,A,Bluegreen_avg,11.512,16-Aug-21
+8/16/2021,ODNR 6,A,Diatom_avg,4.232,16-Aug-21
+8/16/2021,ODNR 6,A,Cryptophyta_avg,13.1895,16-Aug-21
+8/16/2021,ODNR 6,A,YellowSubstances_avg,3.9955,16-Aug-21
+8/16/2021,ODNR 6,A,Total_avg,54.347,16-Aug-21
+8/23/2021,Bells,A,GreenAlgae_avg,2.967,23-Aug-21
+8/23/2021,Bells,A,Bluegreen_avg,2.49,23-Aug-21
+8/23/2021,Bells,A,Diatom_avg,0.856,23-Aug-21
+8/23/2021,Bells,A,Cryptophyta_avg,7.251,23-Aug-21
+8/23/2021,Bells,A,YellowSubstances_avg,1.035,23-Aug-21
+8/23/2021,Bells,A,Total_avg,13.5645,23-Aug-21
+8/23/2021,Bridge,A,GreenAlgae_avg,17.0055,23-Aug-21
+8/23/2021,Bridge,A,Bluegreen_avg,10.1715,23-Aug-21
+8/23/2021,Bridge,A,Diatom_avg,3.4615,23-Aug-21
+8/23/2021,Bridge,A,Cryptophyta_avg,5.5165,23-Aug-21
+8/23/2021,Bridge,A,YellowSubstances_avg,2.762,23-Aug-21
+8/23/2021,Bridge,A,Total_avg,36.1545,23-Aug-21
+8/23/2021,Buoy 2,A,GreenAlgae_avg,28.3295,23-Aug-21
+8/23/2021,Buoy 2,A,Bluegreen_avg,14.725,23-Aug-21
+8/23/2021,Buoy 2,A,Diatom_avg,0.7815,23-Aug-21
+8/23/2021,Buoy 2,A,Cryptophyta_avg,10.439,23-Aug-21
+8/23/2021,Buoy 2,A,YellowSubstances_avg,3.0815,23-Aug-21
+8/23/2021,Buoy 2,A,Total_avg,54.2765,23-Aug-21
+8/23/2021,EC 1163,A,GreenAlgae_avg,19.694,23-Aug-21
+8/23/2021,EC 1163,A,Bluegreen_avg,8.4015,23-Aug-21
+8/23/2021,EC 1163,A,Diatom_avg,1.897,23-Aug-21
+8/23/2021,EC 1163,A,Cryptophyta_avg,7.203,23-Aug-21
+8/23/2021,EC 1163,A,YellowSubstances_avg,2.1535,23-Aug-21
+8/23/2021,EC 1163,A,Total_avg,37.1945,23-Aug-21
+8/23/2021,Muddy Creek,A,GreenAlgae_avg,27.978,23-Aug-21
+8/23/2021,Muddy Creek,A,Bluegreen_avg,11.0115,23-Aug-21
+8/23/2021,Muddy Creek,A,Diatom_avg,10.5555,23-Aug-21
+8/23/2021,Muddy Creek,A,Cryptophyta_avg,8.8805,23-Aug-21
+8/23/2021,Muddy Creek,A,YellowSubstances_avg,3.5545,23-Aug-21
+8/23/2021,Muddy Creek,A,Total_avg,58.4255,23-Aug-21
+8/23/2021,ODNR 1,A,GreenAlgae_avg,27.297,23-Aug-21
+8/23/2021,ODNR 1,A,Bluegreen_avg,11.583,23-Aug-21
+8/23/2021,ODNR 1,A,Diatom_avg,1.758,23-Aug-21
+8/23/2021,ODNR 1,A,Cryptophyta_avg,9.187,23-Aug-21
+8/23/2021,ODNR 1,A,YellowSubstances_avg,3.028,23-Aug-21
+8/23/2021,ODNR 1,A,Total_avg,49.8255,23-Aug-21
+8/23/2021,ODNR 2,A,GreenAlgae_avg,27.485,23-Aug-21
+8/23/2021,ODNR 2,A,Bluegreen_avg,16.5685,23-Aug-21
+8/23/2021,ODNR 2,A,Diatom_avg,0.4445,23-Aug-21
+8/23/2021,ODNR 2,A,Cryptophyta_avg,9.978,23-Aug-21
+8/23/2021,ODNR 2,A,YellowSubstances_avg,3.1765,23-Aug-21
+8/23/2021,ODNR 2,A,Total_avg,54.4725,23-Aug-21
+8/23/2021,ODNR 4,A,GreenAlgae_avg,23.741,23-Aug-21
+8/23/2021,ODNR 4,A,Bluegreen_avg,8.052,23-Aug-21
+8/23/2021,ODNR 4,A,Diatom_avg,5.922,23-Aug-21
+8/23/2021,ODNR 4,A,Cryptophyta_avg,7.883,23-Aug-21
+8/23/2021,ODNR 4,A,YellowSubstances_avg,2.8255,23-Aug-21
+8/23/2021,ODNR 4,A,Total_avg,45.597,23-Aug-21
+8/23/2021,ODNR 6,A,GreenAlgae_avg,26.7005,23-Aug-21
+8/23/2021,ODNR 6,A,Bluegreen_avg,10.758,23-Aug-21
+8/23/2021,ODNR 6,A,Diatom_avg,7.322,23-Aug-21
+8/23/2021,ODNR 6,A,Cryptophyta_avg,8.763,23-Aug-21
+8/23/2021,ODNR 6,A,YellowSubstances_avg,3.6725,23-Aug-21
+8/23/2021,ODNR 6,A,Total_avg,53.544,23-Aug-21
